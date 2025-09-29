@@ -8,6 +8,7 @@ database: database
 expanded:
 - configuracao-e-aquecimento
 - campanha-principal
+- bloco_b-primeiras-classes
 tasks: {}
 flags:
   quests: 0
