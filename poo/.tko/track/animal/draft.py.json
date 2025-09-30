@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-29_20-21-17",
+            "content": "class Animal :\ndef__init__(self,species: str, sound: str):\n    self.species : str = species\n    self.sound : str = sound\n    self.age : int = 0\n\n\ndef __str__(self) :\n    return f\"{self.species} : {self.sound} : {self.age}\"\n\ndef ageBy(self, increment: int) -> None\n    self.age += increment\n    if self.age >= 4\n        print (\"warning: {species} morreu\")\n        self.age = 4\n\ndef makeSound (self) -> str:\n    if self.age == 0 :\n        return f\"---\"\n    elif self.age == 4 :\n        return f\"RIP\"\n    else :\n        return self.sound\n\ndef main()\n    bichano = Animal(\"\", \"\")\n    while True:\n        line : str = input()\n        args : list [str] = line.split (\" \")\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\" :\n            species = args[1]\n            sound = args[2]\n            bichano = Animal(species,sound)\n\n        elif args[0] = \"show\" :\n            print(bichano)\n        elif args[0] = \"grow\" :\n            increment : int = int(args[0])\n            bichano.age(increment)\n        else:\n            print(\"fail: c\u00f3digo invalido\")\n\nmain()\n\n\n\n\n\n    \n",
+            "lines": "51"
+        }
+    ]
+}
