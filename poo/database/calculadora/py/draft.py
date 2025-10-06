@@ -32,30 +32,28 @@ class Calculadora :
              self.battery -= 1
 
 def main():
-    calculadora = Calculadora(0)
+     calc = Calculadora(0)
+     while True :
+          line = input()
+          print("$" + line)
+          args = line.split()
 
-    while True:
-        line: str = input()
-        print("$" + line)
-        args = line.split()
-
-        if args[0] == "end":
+          if args[0] == "end" :
             break
-        elif args[0] == "init":
-            calculadora = Calculadora(int(args[1]))
-        elif args[0] == "show":
-            print(calculadora)
-        elif args[0] == "charge":
-            increment = int(args[1])
-            calculadora.charge(increment)
-        elif args[0] == "sum":
-            calculadora.sum(int(args[1]), int(args[2]))
-        elif args[0] == "div":
-            calculadora.div(int(args[1]), int(args[2]))
-        else:
-            print("fail: comando desconhecido")
-main()
-               
+          elif args[0] == "init":
+            if len(args) > 1:
+                calc = Calculadora(int(args[1]))
+            else:
+                calc = Calculadora(0)
+          elif args[0] == "charge" :
+            calc.charge(int(args[1]))
+          elif args[0] == "sum" :
+            calc.sum(float(args[1]), float(args[2]))
+          elif args[0] == "div" :
+            calc.div(float(args[1]), float(args[2]))
+          elif args[0] == "show" :
+              print(calc)
+main ()
 
 
 
