@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-05_22-09-18",
+            "content": "@@ -1574,15 +1574,8 @@\n lc)%0A\n-main ()\n %0A   \n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-05_23-06-08",
+            "content": "@@ -139,16 +139,17 @@\n at = 0.0\n+0\n %0A%0A    de\n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-05_23-10-33",
+            "content": "@@ -139,17 +139,16 @@\n at = 0.0\n-0\n %0A%0A    de\n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-05_23-10-40",
+            "content": "@@ -217,13 +217,8 @@\n play\n-:,.2f\n %7D, b\n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-05_23-22-57",
+            "content": "@@ -283,16 +283,24 @@\n lue:int)\n+ -%3E None\n  :%0A     \n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-06_00-50-52",
+            "content": "@@ -38,26 +38,8 @@\n self\n-, batteryMax : int\n ) :%0A\n@@ -97,20 +97,19 @@\n Max \n-= batteryMax\n+: int = 100\n %0A   \n@@ -852,16 +852,28 @@\n    elif \n+ x == 0 and \n y == 0 :\n@@ -865,32 +865,32 @@\n  0 and y == 0 :%0A\n-\n              pri\n@@ -1031,25 +1031,24 @@\n Calculadora(\n-0\n )%0A     while\n@@ -1225,143 +1225,42 @@\n nit%22\n-:%0A            if len(args) %3E 1:%0A                calc = Calculadora(int(args%5B1%5D))%0A            else:%0A                calc = Calculadora(0\n+ :%0A            calc = Calculadora(\n )%0A  \n",
+            "lines": "63"
+        },
+        {
+            "label": "2025-10-06_01-00-32",
+            "content": "@@ -1018,35 +1018,29 @@\n main():%0A    \n+ \n calc\n-uladora\n  = Calculado\n@@ -1045,17 +1045,17 @@\n dora(0)%0A\n-%0A\n+ \n     whil\n@@ -1060,18 +1060,21 @@\n ile True\n+ \n :%0A\n+  \n         \n@@ -1081,13 +1081,8 @@\n line\n-: str\n  = i\n@@ -1088,16 +1088,18 @@\n input()%0A\n+  \n         \n@@ -1116,16 +1116,18 @@\n + line)%0A\n+  \n         \n@@ -1155,16 +1155,18 @@\n         \n+  \n if args%5B\n@@ -1176,16 +1176,17 @@\n == %22end%22\n+ \n :%0A      \n@@ -1197,32 +1197,34 @@\n   break%0A        \n+ \n+ \n elif args%5B0%5D == \n@@ -1247,99 +1247,117 @@\n     \n-calculadora = Calculadora(int(args%5B1%5D))%0A        elif args%5B0%5D == %22show%22:%0A            print(c\n+if len(args) %3E 1:%0A                calc = Calculadora(int(args%5B1%5D))%0A            else:%0A                calc = C\n alcu\n@@ -1362,16 +1362,18 @@\n culadora\n+(0\n )%0A      \n@@ -1366,32 +1366,34 @@\n dora(0)%0A        \n+  \n elif args%5B0%5D == \n@@ -1400,16 +1400,17 @@\n %22charge%22\n+ \n :%0A      \n@@ -1419,20 +1419,20 @@\n     \n-increment = \n+calc.charge(\n int(\n@@ -1443,51 +1443,12 @@\n %5B1%5D)\n+)\n %0A\n-  \n   \n-        calculadora.charge(increment)%0A\n     \n@@ -1472,16 +1472,17 @@\n == %22sum%22\n+ \n :%0A      \n@@ -1495,22 +1495,17 @@\n calc\n-uladora\n .sum(\n-in\n+floa\n t(ar\n@@ -1504,34 +1504,36 @@\n float(args%5B1%5D), \n-in\n+floa\n t(args%5B2%5D))%0A    \n@@ -1528,32 +1528,34 @@\n gs%5B2%5D))%0A        \n+  \n elif args%5B0%5D == \n@@ -1559,16 +1559,17 @@\n == %22div%22\n+ \n :%0A      \n@@ -1582,22 +1582,17 @@\n calc\n-uladora\n .div(\n-in\n+floa\n t(ar\n@@ -1599,18 +1599,20 @@\n gs%5B1%5D), \n-in\n+floa\n t(args%5B2\n@@ -1627,66 +1627,66 @@\n     \n-else:%0A            print(%22fail: comando desconhecido%22\n+  elif args%5B0%5D == %22show%22 :%0A              print(calc\n )%0Amain\n+ \n ()%0A \n",
+            "lines": "66"
+        },
+        {
+            "label": "2025-10-06_01-04-13",
+            "content": "@@ -485,38 +485,8 @@\n da%22)\n-%0A            self.battery -= 1\n %0A%0A  \n",
+            "lines": "67"
+        },
+        {
+            "label": "2025-10-06_01-05-43",
+            "content": "class Calculadora :\n    def __init__(self, batteryMax : int) :\n        self.battery : int = 0\n        self.batteryMax = batteryMax\n        self.display : float = 0.00\n\n    def __str__(self) -> str :\n        return f\"display = {self.display:,.2f}, battery = {self.battery}\"\n    \n    def charge(self, value:int) :\n        if self.battery < self.batteryMax :\n            self.battery += value\n\n        if self.battery == self.batteryMax :\n            print(\"bateria completamemte carregada\")\n            self.battery -= 1\n\n    def sum(self, a : float, b : float) -> None :\n            if self.battery == 0 :\n                print(\"fail: bateria insuficiente\")            \n            else :\n                self.display = a + b\n                self.battery -= 1\n\n    def div(self, x : float, y : float) -> None :\n        if self.battery == 0 :\n                print(\"fail: bateria insuficiente\")  \n        elif y == 0 :\n             print(\"fail: divisao por zero\")\n        else :\n             self.display = x / y\n             self.battery -= 1\n\ndef main():\n    calculadora = Calculadora(0)\n\n    while True:\n        line: str = input()\n        print(\"$\" + line)\n        args = line.split()\n\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\":\n            calculadora = Calculadora(int(args[1]))\n        elif args[0] == \"show\":\n            print(calculadora)\n        elif args[0] == \"charge\":\n            increment = int(args[1])\n            calculadora.charge(increment)\n        elif args[0] == \"sum\":\n            calculadora.sum(int(args[1]), int(args[2]))\n        elif args[0] == \"div\":\n            calculadora.div(int(args[1]), int(args[2]))\n        else:\n            print(\"fail: comando desconhecido\")\nmain()\n               \n\n\n\n    \n\n    \n\n\n        \n\n",
+            "lines": "68"
+        }
+    ]
+}

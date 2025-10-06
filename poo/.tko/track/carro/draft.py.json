@@ -1,0 +1,524 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-04_21-15-00",
+            "content": "@@ -49,17 +49,17 @@\n self.pas\n-a\n+s\n  : int =\n@@ -179,17 +179,17 @@\n ass:%7Bpas\n-a\n+s\n %7D : gas:\n@@ -269,17 +269,17 @@\n self.pas\n-a\n+s\n  += entr\n@@ -300,17 +300,17 @@\n self.pas\n-a\n+s\n  %3E= 2 :%0A\n@@ -384,17 +384,17 @@\n self.pas\n-a\n+s\n  = 2%0A%0A  \n@@ -439,25 +439,25 @@\n  if self.pas\n-a\n+s\n  == 2 :%0A    \n@@ -479,17 +479,17 @@\n self.pas\n-a\n+s\n  -1%0A    \n@@ -531,17 +531,17 @@\n self.pas\n-a\n+s\n  == 1 :%0A\n@@ -1503,17 +1503,17 @@\n      pas\n-a\n+s\n  = args%5B\n@@ -1593,17 +1593,17 @@\n arro(pas\n-a\n+s\n ,gas,km)\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-19-01",
+            "content": "@@ -150,16 +150,17 @@\n  - %3E str\n+ \n :%0A      \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-19-55",
+            "content": "@@ -143,17 +143,19 @@\n  (self) \n-=\n+- %3E\n  str:%0A  \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-20-09",
+            "content": "@@ -143,17 +143,17 @@\n  (self) \n-:\n+=\n  str:%0A  \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-20-36",
+            "content": "@@ -148,16 +148,17 @@\n f) : str\n+:\n %0A       \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-20-42",
+            "content": "@@ -177,17 +177,19 @@\n s:%7Bpasa%7D\n-:\n+ : \n gas:%7Bgas\n@@ -189,17 +189,19 @@\n as:%7Bgas%7D\n-:\n+ : \n km%7Bkm%7D%22%0A\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-21-08",
+            "content": "@@ -170,39 +170,35 @@\n n f%22\n-%7Bself.pasa%7D:%7Bself.km%7D:%7Bself.gas\n+pass:%7Bpasa%7D:gas:%7Bgas%7D:km%7Bkm\n %7D%22%0A%0A\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-22-07",
+            "content": "@@ -165,17 +165,16 @@\n return f\n- \n %22%7Bself.p\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-22-16",
+            "content": "@@ -165,16 +165,17 @@\n return f\n+ \n %22%7Bself.p\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-22-25",
+            "content": "@@ -168,23 +168,9 @@\n urn \n-%0A        print(\n+f\n %22%7Bse\n@@ -199,17 +199,16 @@\n lf.gas%7D%22\n-)\n %0A%0A    de\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-22-46",
+            "content": "@@ -164,16 +164,25 @@\n  return \n+%0A        \n print(%22%7B\n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-23-11",
+            "content": "@@ -136,32 +136,36 @@\n tring__ (self) :\n+ str\n %0A        return \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-23-41",
+            "content": "@@ -304,16 +304,18 @@\n asa %3E= 2\n+ :\n %0A       \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-24-11",
+            "content": "@@ -304,22 +304,17 @@\n asa %3E= 2\n-:%0A    \n+%0A\n         \n@@ -356,29 +356,24 @@\n  atingido%22)%0A\n-     \n             \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-24-26",
+            "content": "@@ -301,19 +301,19 @@\n f.pasa %3E\n+=\n  2\n- \n :%0A      \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-24-42",
+            "content": "@@ -300,20 +300,21 @@\n lf.pasa \n-== 2\n+%3E 2 :\n %0A       \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-25-08",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,1998 +1,64 @@%0A-\n class Ca\n@@ -27,17 +27,19 @@\n  Carro :\n-%0A\n+%250A\n     def \n@@ -47,33 +47,35 @@\n _init__ (self) :\n-%0A\n+%250A\n         self.pas\n@@ -77,33 +77,35 @@\n f.pasa : int = 0\n-%0A\n+%250A\n         self.km \n@@ -113,17 +113,19 @@\n  int = 0\n-%0A\n+%250A\n         \n@@ -142,18 +142,22 @@\n  int = 0\n-%0A%0A\n+%250A%250A\n     def \n@@ -177,17 +177,19 @@\n (self) :\n-%0A\n+%250A\n         \n@@ -205,10 +205,14 @@\n int(\n-%22%7B\n+%2522%257B\n self\n@@ -220,34 +220,50 @@\n pasa\n-%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A\n+%257D:%257Bself.km%257D:%257Bself.gas%257D%2522)%250A%250A\n     \n@@ -292,33 +292,37 @@\n trar: int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n          sel\n@@ -337,17 +337,19 @@\n = entrar\n-%0A\n+%250A\n         \n@@ -359,33 +359,35 @@\n self.pasa == 2 :\n-%0A\n+%250A\n                 \n@@ -388,25 +388,27 @@\n       print(\n-%22\n+%2522\n fail : limit\n@@ -428,19 +428,23 @@\n atingido\n-%22)%0A\n+%2522)%250A\n         \n@@ -465,18 +465,22 @@\n pasa = 2\n-%0A%0A\n+%250A%250A\n     def \n@@ -496,25 +496,29 @@\n (self) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n        i\n@@ -535,17 +535,19 @@\n a == 2 :\n-%0A\n+%250A\n         \n@@ -569,17 +569,19 @@\n .pasa -1\n-%0A\n+%250A\n         \n@@ -588,34 +588,38 @@\n     print (sair)\n-%0A%0A\n+%250A%250A\n         elif sel\n@@ -631,17 +631,19 @@\n a == 1 :\n-%0A\n+%250A\n         \n@@ -658,18 +658,22 @@\n t (sair)\n-%0A%0A\n+%250A%250A\n         \n@@ -670,33 +670,35 @@\n 0A        else :\n-%0A\n+%250A\n             prin\n@@ -695,25 +695,27 @@\n       print(\n-%22\n+%2522\n fail: nao ha\n@@ -731,20 +731,26 @@\n no carro\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -778,33 +778,37 @@\n ent : int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -824,17 +824,19 @@\n ncrement\n-%0A\n+%250A\n         \n@@ -849,33 +849,35 @@\n  self.gas == 0 :\n-%0A\n+%250A\n                 \n@@ -875,33 +875,35 @@\n          print (\n-%22\n+%2522\n fail : tanque va\n@@ -905,20 +905,26 @@\n ue vazio\n-%22)%0A%0A\n+%2522)%250A%250A\n         \n@@ -949,17 +949,19 @@\n == 100 :\n-%0A\n+%250A\n         \n@@ -974,17 +974,19 @@\n   print(\n-%22\n+%2522\n warning:\n@@ -998,19 +998,23 @@\n ue cheio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1035,17 +1035,19 @@\n as = 100\n-%0A\n+%250A\n         \n@@ -1046,25 +1046,27 @@\n             \n-%0A\n+%250A\n     def __dr\n@@ -1098,17 +1098,21 @@\n t) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n     \n@@ -1127,33 +1127,35 @@\n f.km += distance\n-%0A\n+%250A\n         self.gas\n@@ -1166,17 +1166,19 @@\n distance\n-%0A\n+%250A\n         \n@@ -1188,33 +1188,35 @@\n self.pass == 0 :\n-%0A\n+%250A\n             prin\n@@ -1214,25 +1214,27 @@\n      print (\n-%22\n+%2522\n fail : nao h\n@@ -1251,19 +1251,23 @@\n no carro\n-%22)%0A\n+%2522)%250A\n         \n@@ -1286,17 +1286,19 @@\n s == 0 :\n-%0A\n+%250A\n         \n@@ -1304,25 +1304,27 @@\n      print (\n-%22\n+%2522\n fail : tanqu\n@@ -1330,19 +1330,23 @@\n ue vazio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1351,17 +1351,19 @@\n   else :\n-%0A\n+%250A\n         \n@@ -1373,17 +1373,19 @@\n  print (\n-%22\n+%2522\n fail: ta\n@@ -1401,17 +1401,22 @@\n o ap\n-%C3%B3\n+%25C3%25B3\n s andar \n %7Bdis\n@@ -1415,9 +1415,11 @@\n dar \n-%7B\n+%257B\n dist\n@@ -1427,23 +1427,29 @@\n ncia\n-%7D km%22)%0A\n+%257D km%2522)%250A\n         \n %0A%0Ade\n@@ -1444,18 +1444,22 @@\n         \n-%0A%0A\n+%250A%250A\n def main\n@@ -1463,17 +1463,19 @@\n ain () :\n-%0A\n+%250A\n     bar \n@@ -1487,17 +1487,27 @@\n ro (\n-%22%22, %22%22) %0A\n+%2522%2522, %2522%2522) %250A\n     \n@@ -1518,17 +1518,19 @@\n e True :\n-%0A\n+%250A\n         \n@@ -1543,17 +1543,19 @@\n  input()\n-%0A\n+%250A\n         \n@@ -1565,19 +1565,23 @@\n nt (\n-%22$%22\n+%2522$%2522\n  + line)\n %0A   \n@@ -1576,17 +1576,19 @@\n  + line)\n-%0A\n+%250A\n         \n@@ -1609,13 +1609,19 @@\n lit(\n-%22 %22)%0A\n+%2522 %2522)%250A\n     \n@@ -1635,23 +1635,33 @@\n args\n-%5B0%5D == %22end%22 :%0A\n+%255B0%255D == %2522end%2522 :%250A\n     \n@@ -1673,17 +1673,19 @@\n    break\n-%0A\n+%250A\n         \n@@ -1697,24 +1697,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n show\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1746,12 +1746,18 @@\n args\n-%5B1%5D%0A\n+%255B1%255D%250A\n     \n@@ -1778,12 +1778,18 @@\n args\n-%5B2%5D%0A\n+%255B2%255D%250A\n     \n@@ -1809,12 +1809,18 @@\n args\n-%5B3%5D%0A\n+%255B3%255D%250A\n     \n@@ -1851,18 +1851,22 @@\n ,gas,km)\n-%0A%0A\n+%250A%250A\n         \n@@ -1878,25 +1878,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n enter\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1921,18 +1921,24 @@\n args\n-%5B1%5D\n+%255B1%255D\n  : int\n-%0A\n+%250A\n     \n@@ -1966,18 +1966,22 @@\n (entrar)\n-%0A%0A\n+%250A%250A\n         \n@@ -1993,24 +1993,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n fuel\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2057,13 +2057,19 @@\n args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n     \n@@ -2099,18 +2099,22 @@\n crement)\n-%0A%0A\n+%250A%250A\n         \n@@ -2126,25 +2126,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n drive\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2183,18 +2183,22 @@\n ive__())\n-%0A%0A\n+%250A%250A\n         \n@@ -2202,17 +2202,19 @@\n    else:\n-%0A\n+%250A\n         \n@@ -2227,17 +2227,24 @@\n int(\n-%22\n+%2522\n fail: c\n-%C3%B3\n+%25C3%25B3\n digo\n@@ -2256,36 +2256,48 @@\n lido\n-%22)%0A%0Amain()%0A%0A\n+%2522)%250A%250Amain()%250A%250A\n        \n-%0A\n+%250A\n         \n %0A%0A  \n@@ -2292,26 +2292,30 @@\n         \n-%0A%0A\n+%250A%250A\n         \n %0A%0A      \n@@ -2310,14 +2310,95 @@\n     \n-%0A%0A        \n+%250A%250A        %0A+@@ -296,34 +296,32 @@%250A f self.pasa == 2%250A- :%250A %25250A               %250A%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-10-04_21-25-15",
+            "content": "@@ -211,21 +211,25 @@\n     def \n+__\n enter\n+__\n (self, e\n@@ -300,17 +300,17 @@\n lf.pasa \n-%3E\n+=\n = 2 :%0A  \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-26-26",
+            "content": "@@ -246,32 +246,33 @@\n  None :%0A        \n+ \n self.pasa += ent\n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-27-53",
+            "content": "@@ -369,32 +369,33 @@\n                 \n+ \n self.pasa = 2%0A%0A \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-28-12",
+            "content": "@@ -510,16 +510,17 @@\n  (sair)%0A\n+%0A\n         \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-28-47",
+            "content": "@@ -537,16 +537,17 @@\n asa == 1\n+ \n :%0A      \n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-29-05",
+            "content": "@@ -537,17 +537,16 @@\n asa == 1\n- \n :%0A      \n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-29-13",
+            "content": "@@ -513,24 +513,25 @@\n air)%0A       \n+ \n elif self.pa\n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-30-39",
+            "content": "@@ -568,24 +568,25 @@\n ir)%0A%0A       \n+ \n else :%0A     \n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-30-59",
+            "content": "@@ -711,32 +711,36 @@\n crement%0A        \n+    \n if self.gas == 0\n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-31-21",
+            "content": "@@ -785,32 +785,36 @@\n azio%22)%0A%0A        \n+    \n elif self.gas ==\n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-31-30",
+            "content": "@@ -986,33 +986,32 @@\n istance%0A        \n- \n self.gas -= dist\n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-31-42",
+            "content": "@@ -1015,32 +1015,33 @@\n distance%0A       \n+ \n if self.pass == \n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-32-14",
+            "content": "@@ -957,32 +957,33 @@\n  None :%0A        \n+ \n self.km += dista\n@@ -986,16 +986,17 @@\n istance%0A\n+ \n         \n@@ -1016,18 +1016,16 @@\n istance%0A\n-%0A \n        i\n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-04_21-32-54",
+            "content": "@@ -1030,25 +1030,25 @@\n  if self.pas\n-a\n+s\n  == 0 :%0A    \n",
+            "lines": "82"
+        },
+        {
+            "label": "2025-10-04_21-33-08",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,1985 +1,53 @@%0A-\n class Ca\n@@ -27,17 +27,19 @@\n  Carro :\n-%0A\n+%250A\n     def \n@@ -47,33 +47,35 @@\n _init__ (self) :\n-%0A\n+%250A\n         self.pas\n@@ -77,33 +77,35 @@\n f.pasa : int = 0\n-%0A\n+%250A\n         self.km \n@@ -113,17 +113,19 @@\n  int = 0\n-%0A\n+%250A\n         \n@@ -142,18 +142,22 @@\n  int = 0\n-%0A%0A\n+%250A%250A\n     def \n@@ -177,17 +177,19 @@\n (self) :\n-%0A\n+%250A\n         \n@@ -205,10 +205,14 @@\n int(\n-%22%7B\n+%2522%257B\n self\n@@ -220,34 +220,50 @@\n pasa\n-%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A\n+%257D:%257Bself.km%257D:%257Bself.gas%257D%2522)%250A%250A\n     \n@@ -288,33 +288,37 @@\n trar: int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -332,17 +332,19 @@\n = entrar\n-%0A\n+%250A\n         \n@@ -360,15 +360,19 @@\n asa \n-%3E\n+%253E\n = 2 :\n-%0A\n+%250A\n     \n@@ -385,25 +385,27 @@\n       print(\n-%22\n+%2522\n fail : limit\n@@ -425,19 +425,23 @@\n atingido\n-%22)%0A\n+%2522)%250A\n         \n@@ -461,18 +461,22 @@\n pasa = 2\n-%0A%0A\n+%250A%250A\n     def \n@@ -492,25 +492,29 @@\n (self) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n        i\n@@ -531,17 +531,19 @@\n a == 2 :\n-%0A\n+%250A\n         \n@@ -565,17 +565,19 @@\n .pasa -1\n-%0A\n+%250A\n         \n@@ -592,17 +592,19 @@\n t (sair)\n-%0A\n+%250A\n        e\n@@ -623,17 +623,19 @@\n a == 1 :\n-%0A\n+%250A\n         \n@@ -650,18 +650,22 @@\n t (sair)\n-%0A%0A\n+%250A%250A\n        e\n@@ -661,33 +661,35 @@\n %250A       else :\n-%0A\n+%250A\n             prin\n@@ -686,25 +686,27 @@\n       print(\n-%22\n+%2522\n fail: nao ha\n@@ -722,20 +722,26 @@\n no carro\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -769,33 +769,37 @@\n ent : int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -815,17 +815,19 @@\n ncrement\n-%0A\n+%250A\n         \n@@ -836,33 +836,35 @@\n  self.gas == 0 :\n-%0A\n+%250A\n                 \n@@ -862,33 +862,35 @@\n          print (\n-%22\n+%2522\n fail : tanque va\n@@ -892,20 +892,26 @@\n ue vazio\n-%22)%0A%0A\n+%2522)%250A%250A\n         \n@@ -932,17 +932,19 @@\n == 100 :\n-%0A\n+%250A\n         \n@@ -957,17 +957,19 @@\n   print(\n-%22\n+%2522\n warning:\n@@ -981,19 +981,23 @@\n ue cheio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1018,17 +1018,19 @@\n as = 100\n-%0A\n+%250A\n         \n@@ -1029,25 +1029,27 @@\n             \n-%0A\n+%250A\n     def __dr\n@@ -1081,17 +1081,21 @@\n t) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n     \n@@ -1117,17 +1117,19 @@\n distance\n-%0A\n+%250A\n         \n@@ -1148,18 +1148,22 @@\n distance\n-%0A%0A\n+%250A%250A\n         \n@@ -1177,25 +1177,27 @@\n .pasa == 0 :\n-%0A\n+%250A\n             \n@@ -1199,25 +1199,27 @@\n      print (\n-%22\n+%2522\n fail : nao h\n@@ -1236,19 +1236,23 @@\n no carro\n-%22)%0A\n+%2522)%250A\n         \n@@ -1271,17 +1271,19 @@\n s == 0 :\n-%0A\n+%250A\n         \n@@ -1289,25 +1289,27 @@\n      print (\n-%22\n+%2522\n fail : tanqu\n@@ -1315,19 +1315,23 @@\n ue vazio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1336,17 +1336,19 @@\n   else :\n-%0A\n+%250A\n         \n@@ -1358,17 +1358,19 @@\n  print (\n-%22\n+%2522\n fail: ta\n@@ -1386,17 +1386,22 @@\n o ap\n-%C3%B3\n+%25C3%25B3\n s andar \n %7Bdis\n@@ -1400,9 +1400,11 @@\n dar \n-%7B\n+%257B\n dist\n@@ -1412,23 +1412,29 @@\n ncia\n-%7D km%22)%0A\n+%257D km%2522)%250A\n         \n %0A%0Ade\n@@ -1429,18 +1429,22 @@\n         \n-%0A%0A\n+%250A%250A\n def main\n@@ -1448,17 +1448,19 @@\n ain () :\n-%0A\n+%250A\n     bar \n@@ -1472,21 +1472,35 @@\n ro (\n-%22%22, %22%22, %22%22) %0A\n+%2522%2522, %2522%2522, %2522%2522) %250A\n     \n@@ -1511,17 +1511,19 @@\n e True :\n-%0A\n+%250A\n         \n@@ -1536,17 +1536,19 @@\n  input()\n-%0A\n+%250A\n         \n@@ -1558,19 +1558,23 @@\n nt (\n-%22$%22\n+%2522$%2522\n  + line)\n %0A   \n@@ -1569,17 +1569,19 @@\n  + line)\n-%0A\n+%250A\n         \n@@ -1602,13 +1602,19 @@\n lit(\n-%22 %22)%0A\n+%2522 %2522)%250A\n     \n@@ -1628,23 +1628,33 @@\n args\n-%5B0%5D == %22end%22 :%0A\n+%255B0%255D == %2522end%2522 :%250A\n     \n@@ -1666,17 +1666,19 @@\n    break\n-%0A\n+%250A\n         \n@@ -1690,24 +1690,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n show\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1739,12 +1739,18 @@\n args\n-%5B1%5D%0A\n+%255B1%255D%250A\n     \n@@ -1771,12 +1771,18 @@\n args\n-%5B2%5D%0A\n+%255B2%255D%250A\n     \n@@ -1802,12 +1802,18 @@\n args\n-%5B3%5D%0A\n+%255B3%255D%250A\n     \n@@ -1844,18 +1844,22 @@\n ,gas,km)\n-%0A%0A\n+%250A%250A\n         \n@@ -1871,25 +1871,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n enter\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1914,18 +1914,24 @@\n args\n-%5B1%5D\n+%255B1%255D\n  : int\n-%0A\n+%250A\n     \n@@ -1959,18 +1959,22 @@\n (entrar)\n-%0A%0A\n+%250A%250A\n         \n@@ -1986,24 +1986,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n fuel\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2050,13 +2050,19 @@\n args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n     \n@@ -2092,18 +2092,22 @@\n crement)\n-%0A%0A\n+%250A%250A\n         \n@@ -2119,25 +2119,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n drive\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2176,18 +2176,22 @@\n ive__())\n-%0A%0A\n+%250A%250A\n         \n@@ -2195,17 +2195,19 @@\n    else:\n-%0A\n+%250A\n         \n@@ -2220,17 +2220,24 @@\n int(\n-%22\n+%2522\n fail: c\n-%C3%B3\n+%25C3%25B3\n digo\n@@ -2249,38 +2249,68 @@\n lido\n-%22)%0A%0Amain()%0A%0A\n+%2522)%250A%250Amain()%250A%250A       %250A \n        \n-%0A \n+%250A%250A\n        \n-%0A%0A\n+ %250A%250A\n     \n@@ -2318,13 +2318,79 @@\n    %0A\n-%0A        \n++@@ -1297,12 +1297,8 @@%250A (%252522%252522,%250A- %252522%252522,%250A  %252522%252522)%250A%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-10-04_21-34-47",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,904 +1,333 @@%0A-\n class Ca\n@@ -27,17 +27,19 @@\n  Carro :\n-%0A\n+%250A\n     def \n@@ -47,33 +47,35 @@\n _init__ (self) :\n-%0A\n+%250A\n         self.pas\n@@ -77,33 +77,35 @@\n f.pasa : int = 0\n-%0A\n+%250A\n         self.km \n@@ -113,17 +113,19 @@\n  int = 0\n-%0A\n+%250A\n         \n@@ -142,18 +142,22 @@\n  int = 0\n-%0A%0A\n+%250A%250A\n     def \n@@ -177,17 +177,19 @@\n (self) :\n-%0A\n+%250A\n         \n@@ -205,10 +205,14 @@\n int(\n-%22%7B\n+%2522%257B\n self\n@@ -220,34 +220,50 @@\n pasa\n-%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A\n+%257D:%257Bself.km%257D:%257Bself.gas%257D%2522)%250A%250A\n     \n@@ -288,33 +288,37 @@\n trar: int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -332,17 +332,19 @@\n = entrar\n-%0A\n+%250A\n         \n@@ -360,15 +360,19 @@\n asa \n-%3E\n+%253E\n = 2 :\n-%0A\n+%250A\n     \n@@ -385,25 +385,27 @@\n       print(\n-%22\n+%2522\n fail : limit\n@@ -425,19 +425,23 @@\n atingido\n-%22)%0A\n+%2522)%250A\n         \n@@ -461,18 +461,22 @@\n pasa = 2\n-%0A%0A\n+%250A%250A\n     def \n@@ -492,25 +492,29 @@\n (self) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n        i\n@@ -531,17 +531,19 @@\n a == 2 :\n-%0A\n+%250A\n         \n@@ -565,17 +565,19 @@\n .pasa -1\n-%0A\n+%250A\n         \n@@ -592,17 +592,19 @@\n t (sair)\n-%0A\n+%250A\n        e\n@@ -623,17 +623,19 @@\n a == 1 :\n-%0A\n+%250A\n         \n@@ -650,18 +650,22 @@\n t (sair)\n-%0A%0A\n+%250A%250A\n        e\n@@ -661,33 +661,35 @@\n %250A       else :\n-%0A\n+%250A\n             prin\n@@ -686,25 +686,27 @@\n       print(\n-%22\n+%2522\n fail: nao ha\n@@ -722,20 +722,26 @@\n no carro\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -766,33 +766,37 @@\n ent : int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -812,17 +812,19 @@\n ncrement\n-%0A\n+%250A\n         \n@@ -833,33 +833,35 @@\n  self.gas == 0 :\n-%0A\n+%250A\n                 \n@@ -859,33 +859,35 @@\n          print (\n-%22\n+%2522\n fail : tanque va\n@@ -889,20 +889,26 @@\n ue vazio\n-%22)%0A%0A\n+%2522)%250A%250A\n         \n@@ -929,17 +929,19 @@\n == 100 :\n-%0A\n+%250A\n         \n@@ -954,17 +954,19 @@\n   print(\n-%22\n+%2522\n warning:\n@@ -978,19 +978,23 @@\n ue cheio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1019,24 +1019,485 @@\n  100\n-%0A            %0A  \n+%250A  %0A+@@ -643,13 +643,16 @@%250A def %250A+__%250A fuel%250A- %250A+__%250A (sel%250A@@ -919,14 +919,17 @@%250A def %250A+__%250A drive%250A- %250A+__%250A (sel%250A@@ -1240,17 +1240,18 @@%250A %25257Bdistanc%250A-e%250A+ia%250A %25257D km%252522)%25250A %250A@@ -1295,19 +1295,16 @@%250A o (%252522%250A-0%250A %252522, %252522%250A-0%250A %252522, %252522%250A-0%250A %252522) %25250A%250A@@ -1498,17 +1498,109 @@%250A     %250A-bar.show(%250A+pasa = args%25255B1%25255D%25250A            gas = args%25255B2%25255D%25250A%0A     %0A@@ -336,855 +336,359 @@%0A     %0A-%250A%0A   %0A-\n   de\n@@ -1532,17 +1532,21 @@\n t) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n     \n@@ -1558,22 +1558,30 @@\n elf.\n+%0A \n km \n-+= \n+%0A-+%0A = %0A-\n distance\n %0A   \n@@ -1576,17 +1576,19 @@\n distance\n-%0A\n+%250A\n         \n@@ -1607,18 +1607,22 @@\n distance\n-%0A%0A\n+%250A%250A\n         \n@@ -1636,25 +1636,27 @@\n .pasa == 0 :\n-%0A\n+%250A\n             \n@@ -1658,25 +1658,27 @@\n      print (\n-%22\n+%2522\n fail : nao h\n@@ -1695,19 +1695,23 @@\n no carro\n-%22)%0A\n+%2522)%250A\n         \n@@ -1730,17 +1730,19 @@\n s == 0 :\n-%0A\n+%250A\n         \n@@ -1748,25 +1748,27 @@\n      print (\n-%22\n+%2522\n fail : tanqu\n@@ -1774,19 +1774,23 @@\n ue vazio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1795,17 +1795,19 @@\n   else :\n-%0A\n+%250A\n         \n@@ -1817,17 +1817,19 @@\n  print (\n-%22\n+%2522\n fail: ta\n@@ -1845,17 +1845,22 @@\n o ap\n-%C3%B3\n+%25C3%25B3\n s andar \n %7Bdis\n@@ -1859,17 +1859,19 @@\n dar \n-%7B\n+%257B\n distance\n %7D km\n@@ -1870,23 +1870,29 @@\n ance\n-%7D km%22)%0A\n+%257D km%2522)%250A\n         \n %0A%0Ade\n@@ -1887,18 +1887,22 @@\n         \n-%0A%0A\n+%250A%250A\n def main\n@@ -1906,17 +1906,19 @@\n ain () :\n-%0A\n+%250A\n     bar \n@@ -1930,24 +1930,38 @@\n ro (\n-%220%22, %220%22, %220%22) %0A\n+%25220%2522, %25220%2522, %25220%2522) %250A\n     \n@@ -1972,17 +1972,19 @@\n e True :\n-%0A\n+%250A\n         \n@@ -1997,17 +1997,19 @@\n  input()\n-%0A\n+%250A\n         \n@@ -2019,19 +2019,23 @@\n nt (\n-%22$%22\n+%2522$%2522\n  + line)\n %0A   \n@@ -2034,70 +2034,213 @@\n ine)\n-%0A        args = line.split(%22 %22)%0A        if args%5B0%5D == %22end%22 :%0A\n+%250A        args%0A+args%25255B3%25255D%25250A            bar = Carro(pasa,gas,km%250A )%25250A%25250A %250A@@ -1648,29 +1648,21 @@%250A     %250A-entrar%0A  = %0A-l%0A in%0A-e.split(%2522 %2522)%250A        if args%255B0%255D == %2522end%2522 :%250A\n     \n@@ -2252,17 +2252,19 @@\n    break\n-%0A\n+%250A\n         \n@@ -2276,24 +2276,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n show\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2320,18 +2320,22 @@\n r.show()\n-%0A%0A\n+%250A%250A\n         \n@@ -2347,25 +2347,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n enter\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2391,37 +2391,43 @@\n ntrar = int(args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n             bar.\n@@ -2439,18 +2439,22 @@\n (entrar)\n-%0A%0A\n+%250A%250A\n         \n@@ -2466,24 +2466,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n fuel\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2512,37 +2512,43 @@\n ement = int(args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n             bar.\n@@ -2562,18 +2562,22 @@\n crement)\n-%0A%0A\n+%250A%250A\n         \n@@ -2589,25 +2589,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n drive\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2628,65 +2628,497 @@\n     \n-distance = int(args%5B1%5D)%0A       \n+%0A+t(args%25255B1%25255D)%250A+args%25255B1%25255D : int%250A %25250A   %250A@@ -1674,21 +1674,25 @@%250A     bar.%250A+__%250A enter%250A+__%250A (entrar)%250A@@ -1748,16 +1748,22 @@%250A crement %250A+: int %250A = int(ar%250A@@ -1785,20 +1785,24 @@%250A     bar.%250A+__%250A fuel%250A+__%250A (increme%250A@@ -1856,62 +1856,29 @@%250A     %250A-%0A dist%0A@@ -706,13 +706,19 @@%0A args%0A-%255B1%255D)%250A%0A+%25255B1%25255D)%25250A%0A     %0A@@ -729,17 +729,35 @@%0A\n      \n+%0A-\n bar.\n-drive(distance)%0A%0A\n+%0A+%250A+print(%250A bar.%250A+__%250A %0A drive%0A+%250A-%0A (dis%0A@@ -765,109 +765,21 @@%0A ance%0A-)%250A%250A\n     \n@@ -3126,17 +3126,19 @@\n    else:\n-%0A\n+%250A\n         \n@@ -3151,17 +3151,24 @@\n int(\n-%22\n+%2522\n fail: c\n-%C3%B3\n+%25C3%25B3\n digo\n@@ -3180,52 +3180,102 @@\n lido\n-%22)%0A%0Amain()%0A%0A\n+%2522)%250A%250Amain()%250A%250A \n       \n+%250A\n  \n-%0A\n        \n- %0A%0A        %0A%0A        \n+%250A%250A        %250A%250A        %0A+%250A+__()%250A )%25250A%25250A %250A%0A\n",
+            "lines": "36"
+        },
+        {
+            "label": "2025-10-04_21-44-44",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,1904 +1,76 @@%0A-\n class Ca\n@@ -27,17 +27,19 @@\n  Carro :\n-%0A\n+%250A\n     def \n@@ -47,33 +47,35 @@\n _init__ (self) :\n-%0A\n+%250A\n         self.pas\n@@ -77,33 +77,35 @@\n f.pasa : int = 0\n-%0A\n+%250A\n         self.km \n@@ -113,17 +113,19 @@\n  int = 0\n-%0A\n+%250A\n         \n@@ -142,18 +142,22 @@\n  int = 0\n-%0A%0A\n+%250A%250A\n     def \n@@ -177,17 +177,19 @@\n (self) :\n-%0A\n+%250A\n         \n@@ -205,10 +205,14 @@\n int(\n-%22%7B\n+%2522%257B\n self\n@@ -220,34 +220,50 @@\n pasa\n-%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A\n+%257D:%257Bself.km%257D:%257Bself.gas%257D%2522)%250A%250A\n     \n@@ -288,33 +288,37 @@\n trar: int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -332,17 +332,19 @@\n = entrar\n-%0A\n+%250A\n         \n@@ -360,15 +360,19 @@\n asa \n-%3E\n+%253E\n = 2 :\n-%0A\n+%250A\n     \n@@ -385,25 +385,27 @@\n       print(\n-%22\n+%2522\n fail : limit\n@@ -425,19 +425,23 @@\n atingido\n-%22)%0A\n+%2522)%250A\n         \n@@ -461,18 +461,22 @@\n pasa = 2\n-%0A%0A\n+%250A%250A\n     def \n@@ -492,25 +492,29 @@\n (self) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n        i\n@@ -531,17 +531,19 @@\n a == 2 :\n-%0A\n+%250A\n         \n@@ -565,17 +565,19 @@\n .pasa -1\n-%0A\n+%250A\n         \n@@ -592,17 +592,19 @@\n t (sair)\n-%0A\n+%250A\n        e\n@@ -623,17 +623,19 @@\n a == 1 :\n-%0A\n+%250A\n         \n@@ -650,18 +650,22 @@\n t (sair)\n-%0A%0A\n+%250A%250A\n        e\n@@ -661,33 +661,35 @@\n %250A       else :\n-%0A\n+%250A\n             prin\n@@ -686,25 +686,27 @@\n       print(\n-%22\n+%2522\n fail: nao ha\n@@ -722,20 +722,26 @@\n no carro\n-%22)%0A%0A\n+%2522)%250A%250A\n     def \n@@ -766,33 +766,37 @@\n ent : int) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n         self\n@@ -812,17 +812,19 @@\n ncrement\n-%0A\n+%250A\n         \n@@ -833,33 +833,35 @@\n  self.gas == 0 :\n-%0A\n+%250A\n                 \n@@ -859,33 +859,35 @@\n          print (\n-%22\n+%2522\n fail : tanque va\n@@ -889,20 +889,26 @@\n ue vazio\n-%22)%0A%0A\n+%2522)%250A%250A\n         \n@@ -929,17 +929,19 @@\n == 100 :\n-%0A\n+%250A\n         \n@@ -954,17 +954,19 @@\n   print(\n-%22\n+%2522\n warning:\n@@ -978,19 +978,23 @@\n ue cheio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1015,17 +1015,19 @@\n as = 100\n-%0A\n+%250A\n         \n@@ -1026,25 +1026,27 @@\n             \n-%0A\n+%250A\n     def driv\n@@ -1075,17 +1075,21 @@\n t) -\n-%3E\n+%253E\n  None :\n-%0A\n+%250A\n     \n@@ -1111,17 +1111,19 @@\n distance\n-%0A\n+%250A\n         \n@@ -1142,18 +1142,22 @@\n distance\n-%0A%0A\n+%250A%250A\n         \n@@ -1171,25 +1171,27 @@\n .pasa == 0 :\n-%0A\n+%250A\n             \n@@ -1193,25 +1193,27 @@\n      print (\n-%22\n+%2522\n fail : nao h\n@@ -1230,19 +1230,23 @@\n no carro\n-%22)%0A\n+%2522)%250A\n         \n@@ -1265,17 +1265,19 @@\n s == 0 :\n-%0A\n+%250A\n         \n@@ -1283,25 +1283,27 @@\n      print (\n-%22\n+%2522\n fail : tanqu\n@@ -1309,19 +1309,23 @@\n ue vazio\n-%22)%0A\n+%2522)%250A\n         \n@@ -1330,17 +1330,19 @@\n   else :\n-%0A\n+%250A\n         \n@@ -1352,17 +1352,19 @@\n  print (\n-%22\n+%2522\n fail: ta\n@@ -1380,17 +1380,22 @@\n o ap\n-%C3%B3\n+%25C3%25B3\n s andar \n %7Bdis\n@@ -1394,17 +1394,19 @@\n dar \n-%7B\n+%257B\n distance\n %7D km\n@@ -1405,23 +1405,29 @@\n ance\n-%7D km%22)%0A\n+%257D km%2522)%250A\n         \n %0A%0Ade\n@@ -1422,18 +1422,22 @@\n         \n-%0A%0A\n+%250A%250A\n def main\n@@ -1441,17 +1441,19 @@\n ain () :\n-%0A\n+%250A\n     bar \n@@ -1464,17 +1464,19 @@\n rro (0) \n-%0A\n+%250A\n     whil\n@@ -1483,17 +1483,19 @@\n e True :\n-%0A\n+%250A\n         \n@@ -1508,17 +1508,19 @@\n  input()\n-%0A\n+%250A\n         \n@@ -1530,19 +1530,23 @@\n nt (\n-%22$%22\n+%2522$%2522\n  + line)\n %0A   \n@@ -1541,17 +1541,19 @@\n  + line)\n-%0A\n+%250A\n         \n@@ -1574,13 +1574,19 @@\n lit(\n-%22 %22)%0A\n+%2522 %2522)%250A\n     \n@@ -1600,23 +1600,33 @@\n args\n-%5B0%5D == %22end%22 :%0A\n+%255B0%255D == %2522end%2522 :%250A\n     \n@@ -1638,17 +1638,19 @@\n    break\n-%0A\n+%250A\n         \n@@ -1662,24 +1662,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n show\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1706,18 +1706,22 @@\n r.show()\n-%0A%0A\n+%250A%250A\n         \n@@ -1733,25 +1733,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n enter\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1777,37 +1777,43 @@\n ntrar = int(args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n             bar.\n@@ -1825,18 +1825,22 @@\n (entrar)\n-%0A%0A\n+%250A%250A\n         \n@@ -1852,24 +1852,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n fuel\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -1898,37 +1898,43 @@\n ement = int(args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n             bar.\n@@ -1948,18 +1948,22 @@\n crement)\n-%0A%0A\n+%250A%250A\n         \n@@ -1975,25 +1975,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n drive\n-%22 :%0A\n+%2522 :%250A\n     \n@@ -2033,13 +2033,19 @@\n args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n     \n@@ -2071,18 +2071,22 @@\n istance)\n-%0A%0A\n+%250A%250A\n         \n@@ -2090,17 +2090,19 @@\n    else:\n-%0A\n+%250A\n         \n@@ -2115,17 +2115,24 @@\n int(\n-%22\n+%2522\n fail: c\n-%C3%B3\n+%25C3%25B3\n digo\n@@ -2144,36 +2144,62 @@\n lido\n-%22)%0A%0Amain()%0A%0A       %0A\n+%2522)%250A%250Amain()%250A%250A       %250A        %250A%250A\n         \n %0A%0A  \n@@ -2186,34 +2186,38 @@\n   %250A%250A        \n-%0A%0A\n+%250A%250A\n         %0A%0A      \n@@ -2213,13 +2213,106 @@\n    %0A\n-%0A        \n++@@ -1283,17 +1283,29 @@%250A  Carro (%250A-0%250A+%2525220%252522, %2525220%252522, %2525220%252522%250A ) %25250A    w%250A%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-10-04_21-45-14",
+            "content": "@@ -1282,16 +1282,19 @@\n = Carro \n+(0)\n  %0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_21-45-21",
+            "content": "@@ -1479,126 +1479,17 @@\n     \n-self.pasa = args%5B1%5D%0A            self.gas = args%5B2%5D%0A            self.km = args%5B3%5D%0A            bar = Carro(pasa, gas, km\n+bar.show(\n )%0A%0A \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_21-47-55",
+            "content": "@@ -1487,19 +1487,20 @@\n .pasa = \n-int\n+args\n %5B1%5D%0A    \n@@ -1518,19 +1518,20 @@\n f.gas = \n-int\n+args\n %5B2%5D%0A    \n@@ -1548,19 +1548,20 @@\n lf.km = \n-int\n+args\n %5B3%5D%0A    \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-48-28",
+            "content": "@@ -1486,33 +1486,27 @@\n f.pasa = int\n-(args\n %5B1%5D\n-)\n %0A           \n@@ -1524,17 +1524,11 @@\n  int\n-(args\n %5B2%5D\n-)\n %0A   \n@@ -1553,17 +1553,11 @@\n  int\n-(args\n %5B3%5D\n-)\n %0A   \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-50-10",
+            "content": "@@ -1,997 +1,300 @@\n-class Carro :%0A    def __init__ (self) :%0A        self.pasa : int = 0%0A        self.km : int = 0%0A        self.gas : int = 0%0A%0A    def __toString__ (self) :%0A        return print(%22%7Bself.pasa%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A    def enter(self, entrar: int) -%3E None :%0A        self.pasa += entrar%0A        if self.pasa %3E= 2 :%0A                print(%22fail : limite de pessoas atingido%22)%0A                self.pasa = 2%0A%0A    def __leave__(self) -%3E None :%0A       if self.pasa == 2 :%0A            sair = self.pasa -1%0A            print (sair)%0A       elif self.pasa == 1 :%0A            print (sair)%0A%0A       else :%0A            print(%22fail: nao ha ninguem no carro%22)%0A%0A    def fuel (self, increment : int) -%3E None :%0A        self.gas += increment%0A        if self.gas == 0 :%0A                print (%22fail : tanque vazio%22)%0A%0A        elif self.gas == 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            %0A    def drive (self, distance : int) -%3E None :%0A        self.km += distance%0A       \n+@@ -1390,20 +1390,16 @@%0A         %0A-    %0A if args%255B%0A@@ -1424,20 +1424,16 @@%0A         %0A-    %0A break%250A  %0A@@ -1430,36 +1430,32 @@%0A   break%250A        %0A- %0A-   %0A elif args%255B0%255D == %0A@@ -1459,28 +1459,24 @@%0A == %2522show%2522 :%250A%0A-    %0A             %0A@@ -1504,36 +1504,32 @@%0A 1%255D)%250A            %0A-  %0A-  %0A\n  sel\n@@ -303,798 +303,399 @@\n gas \n--\n = \n-distance%0A%0A        if self.pasa == 0 :%0A            print (%22fail : nao ha ninguem no carro%22)%0A        elif self.gas == 0 :%0A            print (%22fail : tanque vazio%22)%0A        else :%0A            print (%22fail: tanque vazio ap%C3%B3s andar %7Bdistance%7D km%22)%0A        %0A%0Adef main () :%0A    bar = Carro  %0A    while True :%0A        line = input()%0A        print (%22$%22 + line)%0A        args = line.split(%22 %22)%0A            if args%5B0%5D == %22end%22 :%0A                break%0A            elif args%5B0%5D == %22show%22 :%0A                self.pasa = int(args%5B1%5D)%0A                self.gas = int(args%5B2%5D)%0A                self.km = int(args%5B3%5D)%0A                bar = Carro(pasa, gas, km)%0A%0A            elif args%5B0%5D == %22enter%22 :%0A                entrar = int(args%5B1%5D)%0A                bar.enter(entrar)%0A%0A            elif args%5B0%5D == %22fuel%22 :\n+int(a%0A@@ -1544,28 +1544,24 @@%0A             %0A-    %0A self.km = in%0A@@ -1583,20 +1583,16 @@%0A         %0A-   %0A- %0A bar = Ca%0A@@ -1611,36 +1611,32 @@%0A s, km)%250A%250A        %0A-    %0A elif args%255B0%255D == %0A@@ -1641,28 +1641,24 @@%0A = %2522enter%2522 :%250A%0A-    %0A             %0A@@ -1687,28 +1687,24 @@%0A             %0A-    %0A bar.enter(en%0A@@ -1710,20 +1710,16 @@%0A ntrar)%250A%250A%0A-    %0A         %0A@@ -1755,20 +1755,16 @@\n %0A   \n@@ -700,22 +700,25 @@\n         \n-   \n+%0A- %0A-\n    \n+%0A\n  increme\n@@ -722,24 +722,32 @@\n emen\n-t = int(args%5B1%5D)\n+%0A@@ -1788,28 +1788,24 @@\n %0A   \n@@ -752,26 +752,31 @@\n             \n+%0A-\n   \n+  %0A\n  bar.fuel(in\n@@ -780,54 +780,100 @@\n (inc\n-rement)%0A%0A            elif args%5B0%5D == %22drive%22 :\n+%0A@@ -1817,28 +1817,24 @@%0A t)%250A%250A        %0A-  %0A-  %0A elif args%255B0%255D%0A@@ -1859,20 +1859,16 @@\n %0A   \n@@ -878,22 +878,23 @@\n         \n-  \n+%0A-\n     \n+%0A\n  distanc\n@@ -898,23 +898,32 @@\n ance\n- = int(args%5B1%5D)\n+%0A@@ -1891,28 +1891,24 @@\n %0A   \n@@ -932,19 +932,26 @@\n         \n+%0A-\n    \n+%0A- %0A \n bar.driv\n@@ -958,123 +958,63 @@\n e(di\n-stance)%0A%0A   \n+%0A@@ -1928,22 +1928,14 @@%0A\n      \n+%0A-\n     \n+%0A \n else:\n-%0A                print(%22fail: c%C3%B3digo invalido%22)%0A%0Amain()%0A%0A       %0A    \n+%250A%0A-\n     %0A\n-%0A\n      \n-   %0A%0A        \n+%0A\n",
+            "lines": "76"
+        },
+        {
+            "label": "2025-10-04_21-53-00",
+            "content": "@@ -1382,16 +1382,24 @@\n it(%22 %22)%0A\n+        \n     if a\n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-53-33",
+            "content": "@@ -1430,16 +1430,24 @@\n   break%0A\n+        \n     elif\n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-54-03",
+            "content": "@@ -1,2080 +1,53 @@\n-class Carro :%0A    def __init__ (self) :%0A        self.pasa : int = 0%0A        self.km : int = 0%0A        self.gas : int = 0%0A%0A    def __toString__ (self) :%0A        return print(%22%7Bself.pasa%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A    def enter(self, entrar: int) -%3E None :%0A        self.pasa += entrar%0A        if self.pasa %3E= 2 :%0A                print(%22fail : limite de pessoas atingido%22)%0A                self.pasa = 2%0A%0A    def __leave__(self) -%3E None :%0A       if self.pasa == 2 :%0A            sair = self.pasa -1%0A            print (sair)%0A       elif self.pasa == 1 :%0A            print (sair)%0A%0A       else :%0A            print(%22fail: nao ha ninguem no carro%22)%0A%0A    def fuel (self, increment : int) -%3E None :%0A        self.gas += increment%0A        if self.gas == 0 :%0A                print (%22fail : tanque vazio%22)%0A%0A        elif self.gas == 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            %0A    def drive (self, distance : int) -%3E None :%0A        self.km += distance%0A        self.gas -= distance%0A%0A        if self.pasa == 0 :%0A            print (%22fail : nao ha ninguem no carro%22)%0A        elif self.gas == 0 :%0A            print (%22fail : tanque vazio%22)%0A        else :%0A            print (%22fail: tanque vazio ap%C3%B3s andar %7Bdistance%7D km%22)%0A        %0A%0Adef main () :%0A    bar = Carro  %0A    while True :%0A        line = input()%0A        print (%22$%22 + line)%0A        args = line.split(%22 %22)%0A    if args%5B0%5D == %22end%22 :%0A                break%0A    elif args%5B0%5D == %22show%22:%0A                self.pasa = int(args%5B1%5D)%0A                self.gas = int(args%5B2%5D)%0A                self.km = int(args%5B3%5D)%0A                bar = Carro(pasa, gas, km)%0A%0A            elif args%5B0%5D == %22enter%22 :%0A                entrar = int(args%5B1%5D)%0A                bar.enter(entrar)%0A%0A            elif args%5B0%5D == %22fuel%22 :%0A                increment = int(args%5B1%5D)%0A                bar.fuel(increment)%0A%0A            elif args%5B0%5D == %22drive%22 :%0A                distance = int(args%5B1%5D)%0A                bar.drive(distance)%0A%0A            else:%0A                print(%22fail: c%C3%B3digo invalido%22)%0A%0Amain()%0A%0A       %0A        %0A%0A        %0A%0A        \n+@@ -1456,16 +1456,17 @@%0A = %2522show%2522%0A+ %0A :%250A      %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-10-04_21-54-22",
+            "content": "@@ -1382,20 +1382,16 @@\n it(%22 %22)%0A\n-    \n     if a\n@@ -1430,28 +1430,16 @@\n   break%0A\n-            \n     elif\n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-54-46",
+            "content": "@@ -1434,16 +1434,24 @@\n   break%0A\n+        \n         \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-54-55",
+            "content": "@@ -1464,17 +1464,16 @@\n = %22show%22\n- \n :%0A      \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-55-05",
+            "content": "@@ -1631,32 +1631,36 @@\n s, km)%0A%0A        \n+    \n elif args%5B0%5D == \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-55-18",
+            "content": "@@ -1737,28 +1737,23 @@\n entrar)%0A\n-   \n+%0A\n       \n-%0A  \n       el\n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-55-30",
+            "content": "@@ -1858,32 +1858,36 @@\n ement)%0A%0A        \n+    \n elif args%5B0%5D == \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-55-37",
+            "content": "@@ -1973,24 +1973,28 @@\n e)%0A%0A        \n+    \n else:%0A      \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-55-46",
+            "content": "@@ -1487,17 +1487,153 @@\n     \n-print(bar\n+self.pasa = int(args%5B1%5D)%0A                self.gas = int(args%5B2%5D)%0A                self.km = int(args%5B3%5D)%0A                bar = Carro(pasa, gas, km\n )%0A%0A \n",
+            "lines": "83"
+        },
+        {
+            "label": "2025-10-04_21-58-22",
+            "content": "@@ -1489,21 +1489,19 @@\n   print(\n-C\n+b\n ar\n-ro\n )%0A%0A     \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-01-18",
+            "content": "@@ -1489,19 +1489,21 @@\n   print(\n-b\n+C\n ar\n+ro\n )%0A%0A     \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-01-33",
+            "content": "@@ -1,1979 +1,68 @@\n-class Carro :%0A    def __init__ (self, pasa : int, km : int, gas : int) :%0A        self.pasa : int = 0%0A        self.km : int = 0%0A        self.gas : int = 0%0A%0A    def __toString__ (self) :%0A        return print(%22%7Bself.pasa%7D:%7Bself.km%7D:%7Bself.gas%7D%22)%0A%0A    def enter(self, entrar: int) -%3E None :%0A        self.pasa += entrar%0A        if self.pasa %3E= 2 :%0A                print(%22fail : limite de pessoas atingido%22)%0A                self.pasa = 2%0A%0A    def __leave__(self) -%3E None :%0A       if self.pasa == 2 :%0A            sair = self.pasa -1%0A            print (sair)%0A       elif self.pasa == 1 :%0A            print (sair)%0A%0A       else :%0A            print(%22fail: nao ha ninguem no carro%22)%0A%0A    def fuel (self, increment : int) -%3E None :%0A        self.gas += increment%0A        if self.gas == 0 :%0A                print (%22fail : tanque vazio%22)%0A%0A        elif self.gas == 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            %0A    def drive (self, distance : int) -%3E None :%0A        self.km += distance%0A        self.gas -= distance%0A%0A        if self.pasa == 0 :%0A            print (%22fail : nao ha ninguem no carro%22)%0A        elif self.gas == 0 :%0A            print (%22fail : tanque vazio%22)%0A        else :%0A            print (%22fail: tanque vazio ap%C3%B3s andar %7Bdistance%7D km%22)%0A        %0A%0Adef main () :%0A    bar = Carro  %0A    while True :%0A        line = input()%0A        print (%22$%22 + line)%0A        args = line.split(%22 %22)%0A        if args%5B0%5D == %22end%22 :%0A                break%0A        elif args%5B0%5D == %22show%22 :%0A                print(bar)%0A%0A        elif args%5B0%5D == %22enter%22 :%0A                entrar = int(args%5B1%5D)%0A                bar.enter(entrar)%0A         %0A        elif args%5B0%5D == %22fuel%22 :%0A                increment = int(args%5B1%5D)%0A                bar.fuel(increment)%0A%0A        elif args%5B0%5D == %22drive%22 :%0A                distance = int(args%5B1%5D)%0A                bar.drive(distance)%0A%0A        else:%0A                print(%22fail: c%C3%B3digo invalido%22)%0A%0Amain()%0A%0A       %0A        %0A%0A        %0A%0A        \n+@@ -33,41 +33,8 @@%0A self%0A-, pasa : int, km : int, gas : int%0A ) :%250A%0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-10-04_22-02-43",
+            "content": "@@ -190,15 +190,21 @@\n     \n+return \n print\n- f\n+(\n %22%7Bse\n@@ -215,30 +215,31 @@\n asa%7D\n-,\n+:\n %7Bself.\n-gas%7D,\n+km%7D:\n %7Bself.\n-km\n+gas\n %7D%22\n+)\n %0A%0A  \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-03-51",
+            "content": "@@ -191,17 +191,18 @@\n    print\n-(\n+ f\n %22%7Bself.p\n@@ -227,14 +227,12 @@\n elf.\n-gas\n+km\n %7D%22\n-)\n %0A%0A  \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-05-03",
+            "content": "@@ -1287,16 +1287,17 @@\n def main\n+ \n () :%0A   \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-05-35",
+            "content": "@@ -1307,18 +1307,16 @@\n  = Carro\n-()\n   %0A    w\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-06-53",
+            "content": "@@ -1307,16 +1307,18 @@\n  = Carro\n+()\n   %0A    w\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-07-34",
+            "content": "@@ -190,22 +190,15 @@\n     \n-return f%22pass:\n+print(%22\n %7Bsel\n@@ -209,12 +209,8 @@\n sa%7D,\n-gas;\n %7Bsel\n@@ -220,21 +220,20 @@\n as%7D,\n-km:\n %7Bself.\n-km\n+gas\n %7D%22\n+)\n %0A%0A  \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-10-31",
+            "content": "@@ -1319,18 +1319,16 @@\n  = Carro\n-()\n   %0A    w\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-11-44",
+            "content": "@@ -1319,16 +1319,19 @@\n  = Carro\n+() \n  %0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-14-08",
+            "content": "@@ -1323,15 +1323,9 @@\n arro\n-(0,0,0)\n+ \n %0A   \n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-18-15",
+            "content": "@@ -1319,17 +1319,16 @@\n  = Carro\n- \n (0,0,0)%0A\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-18-37",
+            "content": "@@ -1,1989 +1,49 @@\n-class Carro :%0A    def __init__ (self, pasa : int, km : int, gas : int) :%0A        self.pasa : int = 0%0A        self.km : int = 0%0A        self.gas : int = 0%0A%0A    def __toString__ (self) :%0A        return f%22pass:%7Bself.pasa%7D,gas;%7Bself.gas%7D,km:%7Bself.km%7D%22%0A%0A    def enter(self, entrar: int) -%3E None :%0A        self.pasa += entrar%0A        if self.pasa %3E= 2 :%0A                print(%22fail : limite de pessoas atingido%22)%0A                self.pasa = 2%0A%0A    def __leave__(self) -%3E None :%0A       if self.pasa == 2 :%0A            sair = self.pasa -1%0A            print (sair)%0A       elif self.pasa == 1 :%0A            print (sair)%0A%0A       else :%0A            print(%22fail: nao ha ninguem no carro%22)%0A%0A    def fuel (self, increment : int) -%3E None :%0A        self.gas += increment%0A        if self.gas == 0 :%0A                print (%22fail : tanque vazio%22)%0A%0A        elif self.gas == 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            %0A    def drive (self, distance : int) -%3E None :%0A        self.km += distance%0A        self.gas -= distance%0A%0A        if self.pasa == 0 :%0A            print (%22fail : nao ha ninguem no carro%22)%0A        elif self.gas == 0 :%0A            print (%22fail : tanque vazio%22)%0A        else :%0A            print (%22fail: tanque vazio ap%C3%B3s andar %7Bdistance%7D km%22)%0A        %0A%0Adef main() :%0A    bar = Carro(0,0,0)%0A    while True :%0A        line = input()%0A        print (%22$%22 + line)%0A        args = line.split(%22 %22)%0A        if args%5B0%5D == %22end%22 :%0A                break%0A        elif args%5B0%5D == %22show%22 :%0A                print(bar)%0A%0A        elif args%5B0%5D == %22enter%22 :%0A                entrar = int(args%5B1%5D)%0A                bar.enter(entrar)%0A         %0A        elif args%5B0%5D == %22fuel%22 :%0A                increment = int(args%5B1%5D)%0A                bar.fuel(increment)%0A%0A        elif args%5B0%5D == %22drive%22 :%0A                distance = int(args%5B1%5D)%0A                bar.drive(distance)%0A%0A        else:%0A                print(%22fail: c%C3%B3digo invalido%22)%0A%0Amain()%0A%0A       %0A        %0A%0A        %0A%0A        \n+@@ -1319,16 +1319,17 @@%0A  = Carro%0A+ %0A (0,0,0)%250A%0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-10-04_22-20-41",
+            "content": "@@ -1325,18 +1325,16 @@\n ro(0,0,0\n-,0\n )%0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-21-12",
+            "content": "@@ -1327,18 +1327,16 @@\n (0,0,0,0\n-,0\n )%0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-21-24",
+            "content": "@@ -1323,16 +1323,22 @@\n arro(0,0\n+,0,0,0\n )%0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-21-36",
+            "content": "@@ -1323,18 +1323,16 @@\n arro(0,0\n-,0\n )%0A    wh\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-04_22-21-44",
+            "content": "@@ -256,24 +256,37 @@\n f enter(self\n+, entrar: int\n ) -%3E None :%0A\n@@ -285,35 +285,32 @@\n  None :%0A        \n-if \n self.pasa %3C 2 :%0A\n@@ -307,27 +307,26 @@\n asa \n-%3C 2 :%0A     \n++= entrar%0A\n         \n    s\n@@ -317,26 +317,26 @@\n rar%0A        \n-  \n+if\n  self.pasa +\n@@ -338,27 +338,20 @@\n asa \n-+= 1\n+%3E= 2 :\n %0A     \n-   else:%0A\n     \n@@ -411,24 +411,38 @@\n             \n+ self.pasa = 2\n %0A%0A    def __\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-05_15-12-20",
+            "content": "@@ -406,32 +406,33 @@\n                %0A\n+%0A\n     def __leave_\n@@ -473,11 +473,12 @@\n asa \n-%3E 0\n+== 2\n  :%0A \n@@ -480,32 +480,38 @@\n 2 :%0A            \n+sair =\n  self.pasa -= 1%0A\n@@ -506,19 +506,71 @@\n f.pasa -\n+1%0A            print (sair)%0A       elif self.pasa =\n = 1\n+ :\n %0A       \n@@ -579,32 +579,33 @@\n    print (sair)%0A\n+%0A\n        else :%0A  \n",
+            "lines": "81"
+        },
+        {
+            "label": "2025-10-05_15-22-15",
+            "content": "@@ -510,25 +510,24 @@\n             \n- \n print (sair)\n",
+            "lines": "77"
+        },
+        {
+            "label": "2025-10-05_15-22-32",
+            "content": "@@ -691,17 +691,17 @@\n elf.gas \n-%3C\n+=\n = 0 :%0A  \n@@ -744,32 +744,25 @@\n vazio%22)%0A\n-        \n+%0A\n         \n self.gas\n@@ -757,30 +757,10 @@\n     \n-s\n el\n-f.gas = 0%0A%0A        \n if s\n@@ -767,17 +767,17 @@\n elf.gas \n-%3E\n+=\n = 100 :%0A\n",
+            "lines": "77"
+        },
+        {
+            "label": "2025-10-05_15-25-33",
+            "content": "@@ -1371,16 +1371,19 @@\n e.split(\n+%22 %22\n )%0A      \n",
+            "lines": "78"
+        },
+        {
+            "label": "2025-10-05_15-26-07",
+            "content": "@@ -1271,16 +1271,21 @@\n = Carro(\n+0,0,0\n )%0A    wh\n",
+            "lines": "78"
+        },
+        {
+            "label": "2025-10-05_15-26-29",
+            "content": "@@ -1317,36 +1317,8 @@\n t()%0A\n-        line = line.strip()%0A\n     \n",
+            "lines": "78"
+        },
+        {
+            "label": "2025-10-05_15-27-49",
+            "content": "@@ -1270,16 +1270,18 @@\n  = Carro\n+()\n %0A    whi\n",
+            "lines": "79"
+        },
+        {
+            "label": "2025-10-05_15-29-01",
+            "content": "@@ -933,32 +933,90 @@\n  int) -%3E None :%0A\n+        self.km += distance%0A        self.gas -= distance%0A%0A\n         if self.\n@@ -1088,35 +1088,18 @@\n         \n-    return%0A        \n+el\n if self.\n@@ -1163,49 +1163,14 @@\n     \n-    return%0A        if distance %3E self.gas\n+else :\n %0A   \n@@ -1185,17 +1185,16 @@\n  print (\n-f\n %22fail: t\n@@ -1236,142 +1236,8 @@\n m%22)%0A\n-            self.km += self.gas%0A            self.gas = 0%0A            return%0A%0A        self.km += distance%0A        self.gas -= distance%0A\n     \n",
+            "lines": "79"
+        },
+        {
+            "label": "2025-10-05_15-39-33",
+            "content": "@@ -1159,18 +1159,16 @@\n self.gas\n- :\n %0A       \n",
+            "lines": "84"
+        },
+        {
+            "label": "2025-10-05_15-39-46",
+            "content": "@@ -1401,18 +1401,16 @@\n  = Carro\n-()\n %0A    whi\n",
+            "lines": "84"
+        },
+        {
+            "label": "2025-10-05_15-41-34",
+            "content": "@@ -1387,19 +1387,18 @@\n in()\n+ \n :%0A    \n-c\n+b\n ar\n-ro\n  = C\n@@ -1403,19 +1403,16 @@\n  Carro()\n-  %0A\n %0A    whi\n@@ -1422,27 +1422,11 @@\n True\n+ \n :%0A\n-        try:%0A    \n     \n@@ -1456,145 +1456,54 @@\n     \n-except EOFError:%0A            break %0A        line = line.strip()%0A        if not line:%0A            continue  %0A%0A        print(f%22$%7Bline%7D%22)  %0A\n+line = line.strip()%0A        print (%22$%22 + line)\n %0A   \n@@ -1540,20 +1540,17 @@\n    i\n-np =\n+f\n  args%5B0%5D\n %0A%0A  \n@@ -1549,24 +1549,8 @@\n s%5B0%5D\n-%0A%0A        if inp\n  == \n@@ -1554,18 +1554,23 @@\n == %22end%22\n+ \n :%0A\n+    \n         \n@@ -1588,27 +1588,31 @@\n        elif \n-inp\n+args%5B0%5D\n  == %22show%22:%0A\n@@ -1609,16 +1609,17 @@\n = %22show%22\n+ \n :%0A      \n@@ -1628,20 +1628,23 @@\n     \n+    \n print(\n-c\n+b\n ar\n-ro\n )\n+%0A\n %0A   \n@@ -1649,27 +1649,31 @@\n        elif \n-inp\n+args%5B0%5D\n  == %22enter%22:\n@@ -1675,65 +1675,11 @@\n ter%22\n+ \n :%0A\n-            if len(args) %3E 1:%0A                try:%0A    \n     \n@@ -1728,25 +1728,19 @@\n         \n-    carro\n+bar\n .enter(e\n@@ -1759,418 +1759,119 @@\n     \n-       except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            %0A        elif inp == %22leave%22:%0A            carro.leave() %0A        elif inp == %22fuel%22:%0A            if len(args) %3E 1:%0A                try:%0A                    quantidade = int(args%5B1%5D)%0A                    carro.fuel(quantidade)%0A                except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            \n+%0A        elif args%5B0%5D == %22fuel%22 :%0A                increment = int(args%5B1%5D)%0A                bar.fuel(increment)%0A\n %0A   \n@@ -1880,19 +1880,23 @@\n    elif \n-inp\n+args%5B0%5D\n  == %22dri\n@@ -1902,65 +1902,11 @@\n ive%22\n+ \n :%0A\n-            if len(args) %3E 1:%0A                try:%0A    \n     \n@@ -1961,17 +1961,11 @@\n     \n-    carro\n+bar\n .dri\n@@ -1981,248 +1981,71 @@\n ce)%0A\n-                except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A        else:%0A            print(%22fail: c%C3%B3digo invalido%22)%0A%0A%0Aif __name__ == %22__main__%22:%0A    \n+%0A        else:%0A                print(%22fail: c%C3%B3digo invalido%22)%0A%0A\n main\n",
+            "lines": "84"
+        },
+        {
+            "label": "2025-10-05_17-05-28",
+            "content": "@@ -21,32 +21,65 @@\n f __init__ (self\n+, pasa : int, km : int, gas : int\n ) :%0A        self\n",
+            "lines": "110"
+        },
+        {
+            "label": "2025-10-05_17-08-03",
+            "content": "@@ -182,17 +182,17 @@\n asa%7D,gas\n-:\n+;\n %7Bself.ga\n",
+            "lines": "110"
+        },
+        {
+            "label": "2025-10-05_17-08-21",
+            "content": "@@ -1,1638 +1,301 @@\n-class Carro :%0A    def __init__ (self) :%0A        self.pasa : int = 0%0A        self.km : int = 0%0A        self.gas : int = 0%0A%0A    def __toString__ (self) :%0A        return f%22pass:%7Bself.pasa%7D,gas:%7Bself.gas%7D,km:%7Bself.km%7D%22%0A%0A    def enter(self) -%3E None :%0A        if self.pasa %3C 2 :%0A                self.pasa += 1%0A        else:%0A           print(%22fail : limite de pessoas atingido%22)%0A               %0A    def __leave__(self) -%3E None :%0A       if self.pasa %3E 0 :%0A             self.pasa -= 1%0A       else :%0A            print(%22fail: nao ha ninguem no carro%22)%0A%0A    def fuel (self, increment : int) -%3E None :%0A        self.gas += increment%0A        if self.gas %3C= 0 :%0A                print (%22fail : tanque vazio%22)%0A                self.gas = 0%0A%0A        if self.gas %3E= 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            %0A    def drive (self, distance : int) -%3E None :%0A        if self.pasa == 0 :%0A            print (%22fail : nao ha ninguem no carro%22)%0A            return%0A        if self.gas == 0 :%0A            print (%22fail : tanque vazio%22)%0A            return%0A        if distance %3E self.gas :%0A            print (f%22fail: tanque vazio ap%C3%B3s andar %7Bdistance%7D km%22)%0A            self.km += self.gas%0A            self.gas = 0%0A            return%0A%0A        self.km += distance%0A        self.gas -= distance%0A        %0A%0Adef main():%0A    carro = Carro()  %0A%0A    while True:%0A        try:%0A            line = input()%0A        except EOFError:%0A            break %0A        line = line.strip()%0A        if not line:%0A            continue  %0A%0A        print(f%22$%7Bline%7D%22)  %0A%0A        args\n+@@ -1671,17 +1671,16 @@%0A   break%250A%0A-%250A%0A         %0A@@ -1724,17 +1724,16 @@%0A (carro)%250A%0A-%250A%0A         %0A@@ -1757,37 +1757,8 @@%0A r%2522:%250A%0A-            quantidade = 1  %250A%0A     %0A@@ -1820,34 +1820,30 @@%0A             %0A-quantidade%0A+entrar%0A  = int(args%255B%0A@@ -1838,32 +1838,72 @@%0A \n  = \n-l\n in\n-e.split()%0A        inp = args%5B0%5D%0A%0A        if inp == %22end%22:%0A\n+t(args%255B1%255D)%250A%0A+\n     \n@@ -306,23 +306,16 @@\n     \n-break%0A%0A\n         \n elif\n@@ -314,208 +314,30 @@\n     \n-elif inp == %22show%22:%0A            print(carro)%0A%0A        elif inp == %22enter%22:%0A            quantidade = 1  %0A            if len(args) %3E 1:%0A                try:%0A                    quantidade = int(args%5B1%5D)\n+carro.enter(entrar)%250A\n %0A   \n@@ -353,89 +353,40 @@\n     \n-except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            \n+ %0A@@ -1987,61 +1987,8 @@%0A     %0A-\n     \n@@ -397,17 +397,19 @@\n continue\n-%0A\n+%250A\n         \n@@ -439,337 +439,112 @@\n ade)\n-%0A%0A        elif inp == %22leave%22:%0A            carro.leave()%0A%0A        elif inp == %22fuel%22:%0A            if len(args) %3E 1:%0A                try:%0A                    quantidade = int(args%5B1%5D)%0A                    carro.fuel(quantidade)%0A                except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            \n+%250A%0A %250A   %0A@@ -2038,17 +2038,17 @@%0A .leave()%0A-%250A%0A+ %0A %250A       %0A@@ -2309,61 +2309,8 @@%0A     %0A-\n else:\n-%0A\n+%250A\n     \n@@ -553,33 +553,35 @@\n           print(\n-%22\n+%2522\n fail: falta argu\n@@ -589,460 +589,279 @@\n ento\n-%22)%0A%0A        elif inp == %22drive%22:%0A            if len(args) %3E 1:%0A                try:%0A                    distancia = int(args%5B1%5D)%0A                    carro.drive(distancia)%0A                except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A%0A        else:%0A            print(%22fail: c%C3%B3digo invalido%22)%0A%0A%0Aif __name__ == %22__main__%22:%0A    main()%0A       %0A        %0A%0A        %0A%0A        \n+%2522)%250A%0A %250A   %0A@@ -2413,18 +2413,17 @@%0A  distanc%0A-ia%0A+e%0A  = int(a%0A@@ -2473,10 +2473,9 @@%0A tanc%0A-ia%0A+e%0A )%250A  %0A@@ -2618,25 +2618,24 @@%0A argumento%2522)%250A%0A-%250A%0A         else%0A@@ -2708,16 +2708,16 @@%0A ain__%2522:%250A%0A-%0A     main%0A@@ -2719,16 +2719,17 @@%0A  main()%250A%0A+%250A%0A        %250A%0A\n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-10-05_17-13-02",
+            "content": "@@ -1155,24 +1155,24 @@\n  andar %7B\n-self.gas\n+distance\n %7D km%22)%0A \n",
+            "lines": "116"
+        },
+        {
+            "label": "2025-10-05_17-14-43",
+            "content": "@@ -4,16 +4,17 @@\n ss Carro\n+ \n :%0A    de\n@@ -19,20 +19,24 @@\n def \n+_\n _init_\n+_ \n (self)\n+ \n :%0A  \n@@ -49,24 +49,18 @@\n self.pas\n-sageiros\n+a \n : int = \n@@ -78,107 +78,38 @@\n elf.\n-passMax: int = 2%0A        self.gasolina: int = 0%0A        self.gasolinaMax: int = 100%0A        self.km\n+km : int = 0%0A        self.gas \n : in\n@@ -128,18 +128,27 @@\n ef _\n-str_\n+_toString__ \n (self)\n+ \n :%0A  \n@@ -167,17 +167,16 @@\n  f%22pass:\n- \n %7Bself.pa\n@@ -180,24 +180,15 @@\n .pas\n-s\n a\n-geiros\n %7D,\n- \n gas:\n- \n %7Bsel\n@@ -196,20 +196,13 @@\n .gas\n-olina\n %7D,\n- \n km:\n- \n %7Bsel\n@@ -224,17 +224,25 @@\n  ent\n-ra\n+e\n r(self)\n+ -%3E None \n :%0A  \n@@ -262,33 +262,20 @@\n .pas\n-sageiros %3C self.passMax:%0A\n+a %3C 2 :%0A    \n     \n@@ -290,24 +290,17 @@\n self.pas\n-sageiros\n+a\n  += 1%0A  \n@@ -305,32 +305,25 @@\n         \n-    return True%0A\n+else:%0A   \n         \n@@ -333,16 +333,17 @@\n nt(%22fail\n+ \n : limite\n@@ -377,43 +377,50 @@\n     \n-return False%0A%0A    def sair(self)\n+       %0A    def __leave__(self) -%3E None \n :%0A\n- \n     \n@@ -437,22 +437,17 @@\n .pas\n-sageiros\n+a\n  %3E 0\n+ \n :%0A\n+ \n     \n@@ -462,24 +462,17 @@\n self.pas\n-sageiros\n+a\n  -= 1%0A  \n@@ -476,33 +476,27 @@\n %0A       \n-     return True%0A\n+else :%0A    \n         \n@@ -537,29 +537,8 @@\n ro%22)\n-%0A        return False\n %0A%0A  \n@@ -551,25 +551,26 @@\n fuel\n+ \n (self, \n-quantidade\n+increment \n : in\n@@ -567,36 +567,37 @@\n ement : int) -%3E \n-bool\n+None \n :%0A        self.g\n@@ -602,86 +602,244 @@\n .gas\n-olina = min(self.gasolina + quantidade, self.gasolinaMax)%0A        return True%0A\n+ += increment%0A        if self.gas %3C= 0 :%0A                print (%22fail : tanque vazio%22)%0A                self.gas = 0%0A%0A        if self.gas %3E= 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            \n %0A   \n@@ -848,16 +848,17 @@\n ef drive\n+ \n (self, d\n@@ -863,18 +863,18 @@\n  distanc\n-ia\n+e \n : int) -\n@@ -879,12 +879,13 @@\n  -%3E \n-bool\n+None \n :%0A  \n@@ -905,21 +905,15 @@\n .pas\n-s\n a\n-geiros\n  == 0\n+ \n :%0A  \n@@ -919,38 +919,40 @@\n            print\n+ \n (%22fail\n+ \n : nao ha ninguem\n@@ -973,39 +973,32 @@\n           return\n- False%0A\n %0A        if self\n@@ -1005,18 +1005,14 @@\n .gas\n-olina\n  == 0\n+ \n :%0A  \n@@ -1018,38 +1018,40 @@\n            print\n+ \n (%22fail\n+ \n : tanque vazio%22)\n@@ -1069,23 +1069,16 @@\n   return\n- False%0A\n %0A       \n@@ -1085,74 +1085,128 @@\n  if \n-self.gasolina %3E= distancia:%0A            self.gasolina -= distancia\n+distance %3E self.gas :%0A            print (f%22fail: tanque vazio ap%C3%B3s andar %7Bself.gas%7D km%22)%0A            self.km += self.gas\n %0A   \n@@ -1223,23 +1223,15 @@\n elf.\n-km += distancia\n+gas = 0\n %0A   \n@@ -1245,21 +1245,17 @@\n   return\n- True\n+%0A\n %0A       \n@@ -1259,102 +1259,130 @@\n     \n+s\n el\n-se:%0A            km_rodado: int = self.gasolina%0A            %0A            self.km += km_rodado\n+f.km += distance%0A        self.gas -= distance%0A        %0A%0Adef main():%0A    carro = Carro()  %0A%0A    while True:%0A        try:\n %0A   \n@@ -1394,25 +1394,22 @@\n     \n-self.gaso\n lin\n-a = 0\n+e = input()\n %0A   \n@@ -1417,335 +1417,303 @@\n     \n-    %0A            if km_rodado %3E 0:%0A                print(f%22fail: tanque vazio apos andar %7Bkm_rodado%7D km%22)%0A            else:%0A                print(%22fail: tanque vazio%22)%0A            return False%0A%0Adef main():%0A    carro\n+except EOFError:%0A            break %0A        line = line.strip()%0A        if not line:%0A            continue  %0A%0A        print(f%22$%7Bline%7D%22)  %0A%0A        args = line.split()%0A        inp\n  = \n-C\n ar\n-ro()\n+gs%5B0%5D%0A\n %0A    \n-%0A    try:%0A        while True:%0A            line = input()%0A            line = line.strip(\n+    if inp == %22end%22:%0A            break%0A%0A        elif inp == %22show%22:%0A            print(carro\n )%0A\n+%0A\n         \n     \n@@ -1712,156 +1712,155 @@\n     \n-    %0A            if not line:%0A                continue%0A%0A            print(f%22$%7Bline%7D%22)%0A%0A\n+elif inp == %22enter%22:%0A            quantidade = 1  %0A            if len(args) %3E 1:%0A          \n       \n+try:%0A\n       \n-parts = line.split()%0A            cmd = parts%5B0%5D%0A \n+              quantidade = int(args%5B1%5D)%0A\n     \n@@ -1870,102 +1870,111 @@\n     \n-%0A     \n      \n-  if cmd == %22show%22:%0A                print(carro)%0A            elif cmd == %22enter%22:%0A \n+except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A                    continue%0A\n     \n@@ -1977,27 +1977,24 @@\n             \n-   \n carro.entrar\n@@ -1994,18 +1994,24 @@\n .ent\n-rar()%0A    \n+er(quantidade)%0A%0A\n     \n@@ -2015,27 +2015,27 @@\n        elif \n-cmd\n+inp\n  == %22leave%22:\n@@ -2051,29 +2051,23 @@\n     \n-    \n carro.\n-sair()%0A    \n+leave()%0A%0A\n     \n@@ -2071,27 +2071,27 @@\n        elif \n-cmd\n+inp\n  == %22fuel%22:%0A\n@@ -2098,39 +2098,34 @@\n             \n-    \n if len(\n-p\n ar\n-t\n+g\n s) %3E 1:%0A    \n@@ -2132,37 +2132,29 @@\n             \n-    \n try:%0A\n-    \n             \n@@ -2174,38 +2174,33 @@\n idade = int(\n-p\n ar\n-t\n+g\n s%5B1%5D)%0A\n-    \n             \n@@ -2238,36 +2238,32 @@\n                 \n-    \n except ValueErro\n@@ -2281,37 +2281,120 @@\n             \n-    pass%0A    \n+print(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A%0A\n         elif\n@@ -2390,27 +2390,27 @@\n        elif \n-cmd\n+inp\n  == %22drive%22:\n@@ -2426,23 +2426,18 @@\n     \n-    \n if len(\n-p\n ar\n-t\n+g\n s) %3E\n@@ -2448,36 +2448,32 @@\n                 \n-    \n try:%0A           \n@@ -2481,20 +2481,16 @@\n         \n-    \n distanci\n@@ -2501,22 +2501,17 @@\n int(\n-p\n ar\n-t\n+g\n s%5B1%5D)%0A\n-    \n     \n@@ -2557,36 +2557,32 @@\n                 \n-    \n except ValueErro\n@@ -2608,150 +2608,187 @@\n     \n-    pass%0A            elif cmd == %22end%22:%0A                break%0A    except EOFError:%0A        pass%0A    except:%0A        pass\n+print(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A%0A        else:%0A            print(%22fail: c%C3%B3digo invalido%22)\n %0A%0A\n+%0A\n if \n+_\n _name_\n+_\n  == %22_\n+_\n main_\n+_\n %22:%0A \n@@ -2796,16 +2796,43 @@\n   main()\n+%0A       %0A        %0A%0A        \n %0A%0A      \n",
+            "lines": "116"
+        },
+        {
+            "label": "2025-10-05_17-15-51",
+            "content": "@@ -2640,17 +2640,15 @@\n %0Aif \n-'\n _name_ \n-'\n == %22\n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-05_17-16-14",
+            "content": "@@ -4,17 +4,16 @@\n ss Carro\n- \n :%0A    de\n@@ -18,24 +18,20 @@\n def \n-_\n _init_\n-_ \n (self)\n- \n :%0A  \n@@ -44,18 +44,24 @@\n self.pas\n-a \n+sageiros\n : int = \n@@ -79,38 +79,107 @@\n elf.\n-km : int = 0%0A        self.gas \n+passMax: int = 2%0A        self.gasolina: int = 0%0A        self.gasolinaMax: int = 100%0A        self.km\n : in\n@@ -198,27 +198,18 @@\n ef _\n-_toString__ \n+str_\n (self)\n- \n :%0A  \n@@ -228,16 +228,17 @@\n  f%22pass:\n+ \n %7Bself.pa\n@@ -242,15 +242,24 @@\n .pas\n-a\n+sageiros\n %7D,\n+ \n gas:\n+ \n %7Bsel\n@@ -267,13 +267,20 @@\n .gas\n+olina\n %7D,\n+ \n km:\n+ \n %7Bsel\n@@ -302,25 +302,17 @@\n  ent\n-e\n+ra\n r(self)\n- -%3E None \n :%0A  \n@@ -332,20 +332,33 @@\n .pas\n-a %3C 2 :%0A    \n+sageiros %3C self.passMax:%0A\n     \n@@ -373,17 +373,24 @@\n self.pas\n-a\n+sageiros\n  += 1%0A  \n@@ -391,33 +391,40 @@\n = 1%0A        \n-else:%0A   \n+    return True%0A\n         prin\n@@ -430,17 +430,16 @@\n nt(%22fail\n- \n : limite\n@@ -473,50 +473,43 @@\n     \n-       %0A    def __leave__(self) -%3E None \n+return False%0A%0A    def sair(self)\n :%0A\n+ \n     \n@@ -526,17 +526,22 @@\n .pas\n-a\n+sageiros\n  %3E 0\n- \n :%0A\n- \n     \n@@ -556,17 +556,24 @@\n self.pas\n-a\n+sageiros\n  -= 1%0A  \n@@ -581,19 +581,25 @@\n     \n-else :%0A    \n+     return True%0A\n     \n@@ -640,16 +640,37 @@\n  carro%22)\n+%0A        return False\n %0A%0A    de\n@@ -679,26 +679,25 @@\n fuel\n- \n (self, \n-increment \n+quantidade\n : in\n@@ -694,37 +694,36 @@\n tidade: int) -%3E \n-None \n+bool\n :%0A        self.g\n@@ -728,244 +728,86 @@\n .gas\n- += increment%0A        if self.gas %3C= 0 :%0A                print (%22fail : tanque vazio%22)%0A                self.gas = 0%0A%0A        if self.gas %3E= 100 :%0A                print(%22warning: tanque cheio%22)%0A                self.gas = 100%0A            \n+olina = min(self.gasolina + quantidade, self.gasolinaMax)%0A        return True%0A\n %0A   \n@@ -816,17 +816,16 @@\n ef drive\n- \n (self, d\n@@ -830,18 +830,18 @@\n  distanc\n-e \n+ia\n : int) -\n@@ -846,13 +846,12 @@\n  -%3E \n-None \n+bool\n :%0A  \n@@ -871,15 +871,21 @@\n .pas\n-a\n+sageiros\n  == 0\n- \n :%0A  \n@@ -899,24 +899,22 @@\n    print\n- \n (%22fail\n- \n : nao ha\n@@ -943,32 +943,39 @@\n           return\n+ False%0A\n %0A        if self\n@@ -982,14 +982,18 @@\n .gas\n+olina\n  == 0\n- \n :%0A  \n@@ -1011,16 +1011,14 @@\n rint\n- \n (%22fail\n- \n : ta\n@@ -1048,16 +1048,23 @@\n   return\n+ False%0A\n %0A       \n@@ -1071,96 +1071,201 @@\n  if \n-distance %3E self.gas :%0A            print (f%22fail: tanque vazio ap%C3%B3s andar %7Bself.gas%7D km%22)\n+self.gasolina %3E= distancia:%0A            self.gasolina -= distancia%0A            self.km += distancia%0A            return True%0A        else:%0A            km_rodado: int = self.gasolina%0A            \n %0A   \n@@ -1284,24 +1284,25 @@\n f.km += \n-self.gas\n+km_rodado\n %0A       \n@@ -1314,16 +1314,21 @@\n self.gas\n+olina\n  = 0%0A   \n@@ -1340,15 +1340,8 @@\n     \n-return%0A\n %0A   \n@@ -1349,202 +1349,286 @@\n     \n-self.km += distance%0A        self.gas -= distance%0A        %0A%0Adef main():%0A    carro = Carro()  %0A%0A    while True:%0A        try:%0A            line = input()%0A        except EOFError:%0A            break %0A\n+    if km_rodado %3E 0:%0A                print(f%22fail: tanque vazio apos andar %7Bkm_rodado%7D km%22)%0A            else:%0A                print(%22fail: tanque vazio%22)%0A            return False%0A%0Adef main():%0A    carro = Carro()%0A    %0A    try:%0A        while True:%0A            line = input()%0A    \n     \n@@ -1651,16 +1651,33 @@\n strip()%0A\n+            %0A    \n         \n@@ -1701,24 +1701,28 @@\n         \n+    \n continue\n   %0A%0A    \n@@ -1713,20 +1713,22 @@\n continue\n-  \n %0A%0A\n+    \n         \n@@ -1744,18 +1744,16 @@\n %7Bline%7D%22)\n-  \n %0A%0A      \n@@ -1754,19 +1754,24 @@\n         \n+    p\n ar\n-g\n+t\n s = line\n@@ -1791,31 +1791,35 @@\n     \n-inp\n+    cmd\n  = \n+p\n ar\n-g\n+t\n s%5B0%5D%0A\n-%0A\n         \n if i\n@@ -1818,52 +1818,25 @@\n     \n-if inp == %22end%22:%0A            break%0A%0A\n+    %0A    \n         \n elif\n@@ -1827,32 +1827,30 @@\n             \n-el\n if \n-inp\n+cmd\n  == %22show%22:%0A\n@@ -1849,16 +1849,20 @@\n %22show%22:%0A\n+    \n         \n@@ -1878,25 +1878,24 @@\n (carro)%0A\n-%0A\n         \n elif inp\n@@ -1882,32 +1882,36 @@\n ro)%0A        \n+    \n elif \n-inp\n+cmd\n  == %22enter%22:\n@@ -1927,273 +1927,31 @@\n     \n-quantidade = 1  %0A            if len(args) %3E 1:%0A                try:%0A                    quantidade = int(args%5B1%5D)%0A                except ValueError:%0A                    print(%22fail: valor inv%C3%A1lido%22)%0A                    continue%0A            carro.enter(quantidade)%0A%0A\n+    carro.entrar()%0A    \n     \n@@ -1955,27 +1955,27 @@\n        elif \n-inp\n+cmd\n  == %22leave%22:\n@@ -1991,23 +1991,29 @@\n     \n+    \n carro.\n-leave()%0A%0A\n+sair()%0A    \n     \n@@ -2017,27 +2017,27 @@\n        elif \n-inp\n+cmd\n  == %22fuel%22:%0A\n@@ -2044,34 +2044,39 @@\n             \n+   \n+ \n if len(\n+p\n ar\n-g\n+t\n s) %3E 1:%0A    \n@@ -2079,37 +2079,45 @@\n                 \n+  \n+  \n try:%0A\n+    \n                 \n@@ -2133,33 +2133,38 @@\n idade = int(\n+p\n ar\n-g\n+t\n s%5B1%5D)%0A\n+    \n             \n@@ -2202,32 +2202,36 @@\n                 \n+    \n except ValueErro\n@@ -2257,104 +2257,21 @@\n     \n-print(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A%0A\n+    pass%0A    \n     \n@@ -2279,19 +2279,19 @@\n    elif \n-inp\n+cmd\n  == %22dri\n@@ -2291,24 +2291,28 @@\n == %22drive%22:%0A\n+    \n             \n@@ -2322,19 +2322,20 @@\n len(\n+p\n ar\n-g\n+t\n s) %3E 1:%0A\n     \n@@ -2322,32 +2322,36 @@\n len(parts) %3E 1:%0A\n+    \n                 \n@@ -2375,16 +2375,20 @@\n         \n+    \n distanci\n@@ -2399,17 +2399,22 @@\n int(\n+p\n ar\n-g\n+t\n s%5B1%5D)%0A\n+    \n     \n@@ -2460,32 +2460,36 @@\n                 \n+    \n except ValueErro\n@@ -2483,32 +2483,36 @@\n ept ValueError:%0A\n+    \n                 \n@@ -2520,186 +2520,147 @@\n    p\n-rint(%22fail: valor inv%C3%A1lido%22)%0A            else:%0A                print(%22fail: falta argumento%22)%0A%0A        else:%0A            print(%22fail: c%C3%B3digo invalido%22)%0A\n+ass%0A            elif cmd == %22end%22:%0A                break%0A    except EOFError:%0A        pass%0A    except:%0A        pass\n %0A%0Aif \n-_\n+'\n _name_\n-_\n  \n+'\n == %22_\n-_\n main_\n-_\n %22:%0A \n@@ -2669,16 +2669,17 @@\n  main()%0A\n+%0A\n         \n",
+            "lines": "101"
+        },
+        {
+            "label": "2025-10-05_17-19-40",
+            "content": "@@ -389,21 +389,25 @@\n     def \n+__\n leave\n+__\n (self) -\n@@ -1993,16 +1993,26 @@\n o.enter(\n+quantidade\n )%0A%0A     \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_18-26-45",
+            "content": "@@ -125,19 +125,24 @@\n   def __\n-str\n+toString\n __ (self\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-24-03",
+            "content": "@@ -162,17 +162,16 @@\n  f%22pass:\n- \n %7Bself.pa\n@@ -178,14 +178,12 @@\n sa%7D,\n- \n gas:\n- \n %7Bsel\n@@ -193,13 +193,11 @@\n as%7D,\n- \n km:\n- \n %7Bsel\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-24-39",
+            "content": "@@ -180,16 +180,17 @@\n a%7D, gas:\n+ \n %7Bself.ga\n@@ -196,16 +196,17 @@\n as%7D, km:\n+ \n %7Bself.km\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-25-00",
+            "content": "@@ -180,17 +180,16 @@\n a%7D, gas:\n- \n %7Bself.ga\n@@ -195,17 +195,16 @@\n as%7D, km:\n- \n %7Bself.km\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-25-17",
+            "content": "@@ -333,16 +333,17 @@\n nt(%22fail\n+ \n : limite\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-25-46",
+            "content": "@@ -925,24 +925,25 @@\n print (%22fail\n+ \n : nao ha nin\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-26-06",
+            "content": "@@ -1139,17 +1139,17 @@\n vazio ap\n-o\n+%C3%B3\n s andar \n@@ -1918,33 +1918,33 @@\n %22fail: valor inv\n-%EC%B9%98\n+%C3%A1\n lido%22)%0A         \n@@ -2283,33 +2283,33 @@\n %22fail: valor inv\n-%EC%B9%98\n+%C3%A1\n lido%22)%0A         \n@@ -2614,9 +2614,9 @@\n  inv\n-%EC%B9%98\n+%C3%A1\n lido\n@@ -2728,9 +2728,9 @@\n l: c\n-%EC%B9%A9\n+%C3%B3\n digo\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-26-24",
+            "content": "@@ -654,32 +654,33 @@\n     print (%22fail\n+ \n : tanque vazio%22)\n@@ -1023,24 +1023,25 @@\n print (%22fail\n+ \n : tanque vaz\n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-26-45",
+            "content": "@@ -732,17 +732,17 @@\n .gas %3E= \n-2\n+1\n 00 :%0A   \n@@ -812,17 +812,17 @@\n f.gas = \n-2\n+1\n 00%0A     \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-30-27",
+            "content": "@@ -734,17 +734,17 @@\n as %3E= 20\n-1\n+0\n  :%0A     \n@@ -814,17 +814,17 @@\n gas = 20\n-1\n+0\n %0A       \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-30-43",
+            "content": "@@ -732,19 +732,19 @@\n .gas %3E= \n-100\n+201\n  :%0A     \n@@ -816,11 +816,11 @@\n s = \n-100\n+201\n %0A   \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-31-40",
+            "content": "@@ -732,17 +732,17 @@\n .gas %3E= \n-2\n+1\n 00 :%0A   \n@@ -812,25 +812,19 @@\n f.gas = \n-increment\n+100\n %0A       \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-32-08",
+            "content": "@@ -734,17 +734,17 @@\n as %3E= 20\n-1\n+0\n  :%0A     \n@@ -816,11 +816,17 @@\n s = \n-201\n+increment\n %0A   \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-46-49",
+            "content": "@@ -732,19 +732,19 @@\n .gas %3E= \n-100\n+201\n  :%0A     \n@@ -816,11 +816,11 @@\n s = \n-100\n+201\n %0A   \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-48-29",
+            "content": "@@ -750,24 +750,54 @@\n             \n+print(%22warning: tanque cheio%22)\n %0A           \n",
+            "lines": "111"
+        },
+        {
+            "label": "2025-10-05_21-48-53",
+            "content": "class Carro :\n    def __init__ (self) :\n        self.pasa : int = 0\n        self.km : int = 0\n        self.gas : int = 0\n\n    def __str__ (self) :\n        return f\"pass: {self.pasa}, gas: {self.gas}, km: {self.km}\"\n\n    def enter(self) -> None :\n        if self.pasa < 2 :\n                self.pasa += 1\n        else:\n           print(\"fail: limite de pessoas atingido\")\n               \n    def leave(self) -> None :\n       if self.pasa > 0 :\n             self.pasa -= 1\n       else :\n            print(\"fail: nao ha ninguem no carro\")\n\n    def fuel (self, increment : int) -> None :\n        self.gas += increment\n        if self.gas <= 0 :\n                print (\"fail: tanque vazio\")\n                self.gas = 0\n\n        if self.gas >= 100 :\n                \n                self.gas = 100\n            \n    def drive (self, distance : int) -> None :\n        if self.pasa == 0 :\n            print (\"fail: nao ha ninguem no carro\")\n            return\n        if self.gas == 0 :\n            print (\"fail: tanque vazio\")\n            return\n        if distance > self.gas :\n            print (f\"fail: tanque vazio apos andar {self.gas} km\")\n            self.km += self.gas\n            self.gas = 0\n            return\n\n        self.km += distance\n        self.gas -= distance\n        \n\ndef main():\n    carro = Carro()  \n\n    while True:\n        try:\n            line = input()\n        except EOFError:\n            break \n        line = line.strip()\n        if not line:\n            continue  \n\n        print(f\"${line}\")  \n\n        args = line.split()\n        inp = args[0]\n\n        if inp == \"end\":\n            break\n\n        elif inp == \"show\":\n            print(carro)\n\n        elif inp == \"enter\":\n            quantidade = 1  \n            if len(args) > 1:\n                try:\n                    quantidade = int(args[1])\n                except ValueError:\n                    print(\"fail: valor inv\uce58lido\")\n                    continue\n            carro.enter()\n\n        elif inp == \"leave\":\n            carro.leave()\n\n        elif inp == \"fuel\":\n            if len(args) > 1:\n                try:\n                    quantidade = int(args[1])\n                    carro.fuel(quantidade)\n                except ValueError:\n                    print(\"fail: valor inv\uce58lido\")\n            else:\n                print(\"fail: falta argumento\")\n\n        elif inp == \"drive\":\n            if len(args) > 1:\n                try:\n                    distancia = int(args[1])\n                    carro.drive(distancia)\n                except ValueError:\n                    print(\"fail: valor inv\uce58lido\")\n            else:\n                print(\"fail: falta argumento\")\n\n        else:\n            print(\"fail: c\uce69digo invalido\")\n\n\nif __name__ == \"__main__\":\n    main()\n        ",
+            "lines": "111"
+        }
+    ]
+}

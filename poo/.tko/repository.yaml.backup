@@ -11,10 +11,11 @@ expanded:
 - bloco_b-primeiras-classes
 tasks:
   toalha: '{rate:100, human:_, alone:4, study:90}'
+  animal: '{rate:100, human:_sim, other:_nao, alone:9, study:120}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
   graph: 0
   xray: 0
-index: carro
+index: calculadora

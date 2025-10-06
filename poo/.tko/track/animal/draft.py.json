@@ -2,8 +2,58 @@
     "patches": [
         {
             "label": "2025-09-29_20-21-17",
-            "content": "class Animal :\ndef__init__(self,species: str, sound: str):\n    self.species : str = species\n    self.sound : str = sound\n    self.age : int = 0\n\n\ndef __str__(self) :\n    return f\"{self.species} : {self.sound} : {self.age}\"\n\ndef ageBy(self, increment: int) -> None\n    self.age += increment\n    if self.age >= 4\n        print (\"warning: {species} morreu\")\n        self.age = 4\n\ndef makeSound (self) -> str:\n    if self.age == 0 :\n        return f\"---\"\n    elif self.age == 4 :\n        return f\"RIP\"\n    else :\n        return self.sound\n\ndef main()\n    bichano = Animal(\"\", \"\")\n    while True:\n        line : str = input()\n        args : list [str] = line.split (\" \")\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\" :\n            species = args[1]\n            sound = args[2]\n            bichano = Animal(species,sound)\n\n        elif args[0] = \"show\" :\n            print(bichano)\n        elif args[0] = \"grow\" :\n            increment : int = int(args[0])\n            bichano.age(increment)\n        else:\n            print(\"fail: c\u00f3digo invalido\")\n\nmain()\n\n\n\n\n\n    \n",
+            "content": "@@ -8,20 +8,16 @@\n nimal :%0A\n-    \n def__ini\n@@ -52,20 +52,16 @@\n : str):%0A\n-    \n     self\n@@ -85,20 +85,16 @@\n species%0A\n-    \n     self\n@@ -114,20 +114,16 @@\n = sound%0A\n-    \n     self\n",
             "lines": "51"
+        },
+        {
+            "label": "2025-10-01_16-10-04",
+            "content": "@@ -15,17 +15,16 @@\n %0A    def\n- \n __init__\n@@ -29,17 +29,16 @@\n __(self,\n- \n species:\n@@ -272,18 +272,16 @@\n  -%3E None\n- :\n %0A    sel\n@@ -319,18 +319,16 @@\n age %3E= 4\n- :\n %0A       \n@@ -555,18 +555,16 @@\n f main()\n- :\n %0A    bic\n@@ -614,16 +614,22 @@\n    line \n+: str \n = input(\n@@ -642,40 +642,25 @@\n     \n-print (%22$%22 + line )%0A        args\n+args : list %5Bstr%5D\n  = l\n@@ -880,17 +880,16 @@\n rgs%5B0%5D =\n-=\n  %22show%22 \n@@ -917,16 +917,16 @@\n ichano)%0A\n+\n         \n@@ -939,17 +939,16 @@\n rgs%5B0%5D =\n-=\n  %22grow%22 \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-10-01_16-18-12",
+            "content": "@@ -352,21 +352,16 @@\n rning: %7B\n-self.\n species%7D\n@@ -1007,17 +1007,17 @@\n nt(args%5B\n-1\n+0\n %5D)%0A     \n@@ -1034,18 +1034,16 @@\n hano.age\n-By\n (increme\n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-23-44",
+            "content": "@@ -157,20 +157,16 @@\n t = 0%0A%0A%0A\n-    \n def __st\n@@ -177,28 +177,24 @@\n self) :%0A    \n-   \n- \n return f%22%7Bse\n@@ -235,20 +235,16 @@\n .age%7D%22%0A%0A\n-    \n def ageB\n@@ -277,28 +277,24 @@\n  None :%0A    \n-  \n-  \n self.age += \n@@ -303,20 +303,16 @@\n crement%0A\n-    \n     if s\n@@ -330,28 +330,24 @@\n 4 :%0A        \n- \n-   \n print (%22warn\n@@ -375,20 +375,16 @@\n orreu%22)%0A\n-    \n         \n@@ -397,20 +397,16 @@\n ge = 4%0A%0A\n-    \n def make\n@@ -430,20 +430,16 @@\n tr:%0A    \n-   \n- \n if self.\n@@ -449,36 +449,32 @@\n  == 0 :%0A        \n-    \n return f%22---%22%0A  \n@@ -471,28 +471,24 @@\n  f%22---%22%0A    \n-  \n-  \n elif self.ag\n@@ -500,28 +500,24 @@\n 4 :%0A        \n-    \n return f%22RIP\n@@ -526,23 +526,15 @@\n     \n- \n-   \n else :%0A\n-    \n     \n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-25-04",
+            "content": "@@ -212,17 +212,19 @@\n species%7D\n-:\n+ : \n %7Bself.so\n@@ -227,16 +227,17 @@\n f.sound%7D\n+ \n : %7Bself.\n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-25-43",
+            "content": "@@ -226,16 +226,17 @@\n .sound%7D:\n+ \n %7Bself.ag\n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-25-44",
+            "content": "@@ -223,19 +223,21 @@\n elf.\n-age\n+sound\n %7D:%7Bself.\n soun\n@@ -232,21 +232,19 @@\n %7D:%7Bself.\n-sound\n+age\n %7D%22%0A%0A    \n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-26-28",
+            "content": "@@ -361,17 +361,16 @@\n  print (\n-f\n %22warning\n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-28-12",
+            "content": "@@ -1110,83 +1110,8 @@\n nt)%0A\n-%0A        elif args%5B0%5D == %22noise%22 :%0A            print(bichano.makeSound())%0A%0A\n     \n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-01_16-30-35",
+            "content": "@@ -1048,16 +1048,22 @@\n crement \n+: int \n = int(ar\n@@ -1243,53 +1243,8 @@\n %22)%0A%0A\n-%0A            %0Aif __name__ == %22__main__%22:%0A    \n main\n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-10-05_20-54-39",
+            "content": "class Animal :\n    def __init__(self, species: str, sound: str):\n        self.species : str = species\n        self.sound : str = sound\n        self.age : int = 0\n\n\n    def __str__(self) :\n        return f\"{self.species}:{self.age}:{self.sound}\"\n\n    def ageBy(self, increment: int) -> None :\n        self.age += increment\n        if self.age >= 4 :\n            print (f\"warning: {self.species} morreu\")\n            self.age = 4\n\n    def makeSound (self) -> str:\n        if self.age == 0 :\n            return f\"---\"\n        elif self.age == 4 :\n            return f\"RIP\"\n        else :\n            return self.sound\n\ndef main() :\n    bichano = Animal(\"\", \"\")\n    while True:\n        line = input()\n        print (\"$\" + line )\n        args = line.split (\" \")\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\" :\n            species = args[1]\n            sound = args[2]\n            bichano = Animal(species,sound)\n\n        elif args[0] == \"show\" :\n            print(bichano)\n        elif args[0] == \"grow\" :\n            increment = int(args[1])\n            bichano.ageBy(increment)\n\n        elif args[0] == \"noise\" :\n            print(bichano.makeSound())\n\n        else:\n            print(\"fail: c\u00f3digo invalido\")\n\n\n            \nif __name__ == \"__main__\":\n    main()\n\n\n\n\n\n    \n",
+            "lines": "59"
         }
     ]
 }
